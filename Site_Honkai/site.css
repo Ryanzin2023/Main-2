@@ -1,0 +1,322 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 0;
+    background-image: url("./Art_splash/1349658-Honkai-Star-Rail-HD-Wallpaper.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+}
+
+h1 {
+    color: #000000;
+    margin: 0;
+}
+
+main {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+h2 {
+    color: #000000;
+}
+
+form {
+    margin-top: 10px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+h3 {
+    color: #000000;
+}
+
+input,
+textarea {
+    display: block;
+    padding: 5px;
+    margin-bottom: 10px;
+    width: 20%;
+    border: 1px solid #ccc;
+    border-radius: 15px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #666;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+/* Estilizando a tabela */
+table.article-table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+  /* Estilizando o cabeçalho da tabela */
+thead th {
+    background-color: #f2f2f2;
+    color: #333;
+    font-weight: bold;
+    padding: 10px;
+    text-align: left;
+}
+
+ /* Estilizando as células de dados */
+tbody td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    vertical-align: middle;
+}
+
+  /* Estilizando a primeira coluna (ícone) */
+tbody td:first-child {
+    width: 40px;
+}
+
+  /* Estilizando os links */
+a {
+    color: #ad861b;
+    text-decoration: none;
+}
+
+  /* Estilizando as imagens */
+.lazyloaded {
+    max-width: 50px;
+    max-height: 50px;
+    width: auto;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+  /* Estilizando a coluna de raridade */
+td span {
+    white-space: nowrap;
+}
+
+  /* Estilizando a coluna de elemento */
+.text-lightning {
+    color: #b54bd3;
+    font-weight: bold;
+}
+
+.text-lightning img {
+    vertical-align: middle;
+    margin-right: 5px;
+}
+
+.text-fire {
+    color: #e62a29;
+    font-weight: bold;
+}
+
+.text-fire img {
+    vertical-align: middle;
+    margin-right: 5px;
+}
+
+.text-physical {
+    color: #71718c;
+    font-weight: bold;
+}
+
+.text-physical img {
+    vertical-align: middle;
+    margin-right: 5px;
+}
+
+.text-ice {
+    color: #2192d6;
+    font-weight: bold;
+}
+
+.text-ice img {
+    vertical-align: middle;
+    margin-right: 5px;
+}
+
+.text-wind {
+    color: #42c38c;
+    font-weight: bold;
+}
+
+.text-wind img {
+    vertical-align: middle;
+    margin-right: 5px;
+}
+
+.text-quantum {
+    color: #4f48bd;
+    font-weight: bold;
+}
+
+.text-quantum img {
+    vertical-align: middle;
+    margin-right: 5px;
+}
+
+.text-imaginary {
+    color: #e5b909;
+    font-weight: bold;
+}
+
+.text-imaginary img {
+    vertical-align: middle;
+    margin-right: 5px;
+}
+
+nav {
+    background-color: #333;
+    padding: 16px 0;
+    display: none;
+}
+
+nav li{
+    list-style: none;
+    display: inline;
+    margin-right: 16px;
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+nav li a{
+    color: #fff;
+    text-decoration: none;
+}
+
+.menu_hamburger{
+    width: 32px;
+    cursor: pointer;
+}
+
+.menu_hamburger span{
+    height: 2px;
+    width: 100%;
+    background-color: #fff;
+    display: block;
+    margin-bottom: 4px;
+}
+
+.social-links img {
+    height: 24px;
+}
+
+.social-links li{
+    display: inline;
+    margin-right: 8px;
+}
+
+.social-links li a {
+    text-decoration: none;
+}
+
+.article-table, .wikitable, .fandom-table, .wikitable.filehistory {
+    border: solid transparent;
+    border-width: 0px 0px 0px 0px;
+    background: #ffffff;
+    border-radius: 5px 5px 5px 5px;
+    border-radius: 4px;
+    overflow: hidden;
+}
+
+.article-table {
+    text-align: center;
+}
+
+
+.article-table td {
+    text-align: center;
+    vertical-align: middle;
+}
+
+
+
+.article-table {
+    width: 100%;
+    border-collapse: collapse;
+    border: 1px solid #ccc;
+    font-family: Arial, sans-serif;
+}
+
+.article-table td {
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+
+.article-table th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+}
+
+.article-table tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+.article-table tbody tr:hover {
+    background-color: #eaeaea;
+}
+
+.colorful-text {
+    color: gold;
+    font-size:larger;
+}
+
+.container_flex {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+}
+.container_flex h1 {
+    font-size: 3em;
+    text-align: center; 
+}
+
+.nav.light_cones {
+    background-color: #f0f0f0; /* Cor de fundo da navegação */
+    padding: 10px; /* Espaçamento interno */
+    border: 1px solid #ccc; /* Borda com cor cinza */
+  }
+  
+  /* Estilizando os links dentro da navegação */
+  .nav.light_cones a {
+    text-decoration: none; /* Remover sublinhado dos links */
+    color: #333; /* Cor do texto dos links */
+    padding: 5px 10px; /* Espaçamento interno dos links */
+  }
+  
+  /* Estilizando os links quando o mouse passa por cima */
+  .nav.light_cones a:hover {
+    background-color: #ddd; /* Cor de fundo quando hover */
+    color: #666; /* Cor do texto quando hover */
+  }

@@ -1,0 +1,153 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(63, 57, 57);
+}
+
+table {
+    border-collapse: collapse;
+    width: 300px;
+    margin-top: 20px;
+}
+
+th, td {
+    background-color: #ffffff;
+    border: 1px solid black;
+}
+
+.character-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.character-image {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.character-table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.character-table th,
+.character-table td {
+    padding: 8px;
+    border: 1px solid black;
+}
+
+.character-box {
+    background-color: #e2b892;
+    padding: 10px;
+    border-radius: 100px;
+    margin-bottom: 50px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+thead th {
+    background-color: #f2f2f2;
+    border: 1px solid black;
+    padding: 8px;
+    text-align: center;
+}
+
+tbody td {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: center;
+}
+
+tbody td[data-label]::before {
+    content: attr(data-label);
+    display: block;
+    font-weight: bold;
+}
+
+tbody td:first-child {
+    text-align: left;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+    text-align: center;
+}
+
+.cost-cell {
+    white-space: nowrap;
+  }
+  
+  .cost-cell img {
+    width: 20px;
+    height: 20px;
+  }
+  
+  td img {
+    display: inline-block;
+  }
+
+  .quote-container {
+    text-align: left;
+    overflow: auto;
+    max-height: 300px;
+    line-height: 1.35em;
+    padding: 15px;
+    overflow: hidden;
+    border: solid #c09c7b;
+    border-width: 4px 6px 4px 9px;
+    background: #ffd1a61a;
+    border-radius: 0px 5px 0px 0px;
+    margin-bottom: 10px;
+}
+
+i {
+    font-style: italic;
+    font-size:x-large;
+    color: black;
+}
+
+
+td.dark-background {
+    background-color: #333;
+    color: #fff;
+  }
+  .material-cell {
+    display: inline-block;
+    margin-right: 10px;
+    background-color: #333;
+    color: #fff;
+  }
+  font{
+    color: #000000;
+  }
+  .level-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+
+#voltar{
+    margin-left: 800px;
+    max-width: fit-content;
+}
+
+.text-antigo{
+    color: red;
+}
+
+.text-novo{
+    color: rgb(70, 196, 20);
+}

@@ -1,0 +1,143 @@
+table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  th, td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  a {
+    text-decoration: none;
+    color: #0066cc;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  .image img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .image, .data {
+    display: block;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  tr:hover {
+    background-color: #ddd;
+  }
+  
+  .character-menu {
+    width: 300px;
+    background-color: #f2f2f2;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+
+  body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    background-image: url("../Art_splash/loadingstuck-honkaistarail-01.webp");
+    margin: 0;
+    padding: 0;
+    background-size:cover;
+    background-repeat: no-repeat;
+}
+
+/* Estilos para o menu */
+.character-menu {
+    text-align: center;
+    background-color: #fff;
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    box-sizing: border-box;
+    border-radius: 100px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.character-menu img {
+    display: block;
+    margin:0 auto;
+    max-width: 200px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+.character-menu h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.character-menu p {
+    font-size: 18px;
+    color: #555;
+    margin-bottom: 20px;
+}
+
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+}
+
+.dialogue {
+  background-color: #f2f2f2;
+  padding: 20px;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  height: 10vh;
+  
+}
+
+h2 {
+  color: #dfdddd;
+  font-size: 24px;
+}
+
+p {
+  color: #fffdfd;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+a {
+  color:#fcae66;
+}
+
+.description {
+  max-width: 150px;
+  margin-bottom: 10px;
+  padding: 15px;
+  border: solid #c09c7b;
+  border-width: 4px 6px 4px 9px;
+  background: #c09c7b1a;
+  border-radius: 0px 5px 0px 0px;
+  margin-left: 840px;
+}
+
+#explicacao{
+color:#ccc;
+}
+
+#history{
+    max-width: 500px;
+    padding: 20px;
+    border-radius: 5px;
+}
