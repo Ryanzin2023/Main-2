@@ -6,7 +6,7 @@
   }
   
   body {
-    background-image: url(./Art_splash/honkai.jpg);
+    background-image: url("./Art_splash/honkai.jpg");
     background-repeat: no-repeat;
     background-size: cover;
   }
