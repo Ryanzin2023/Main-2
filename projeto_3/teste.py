@@ -4,8 +4,6 @@ app = CTk()
 app.title ('Teste')
 set_appearance_mode("Dark")
 app.geometry("500x400")
-CTkLabel(app, text="Olá, Mundo!")
-CTkLabel.pack(pady=20)
 def click_handler():
     print('Button Clicked')
 
