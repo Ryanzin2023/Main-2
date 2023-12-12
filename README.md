@@ -25,8 +25,8 @@ Sou um desenvolvedor Front-End Python intermediário apaixonado por transformar 
 ![Visual Studio Code logo](https://img.shields.io/badge/Visual_Studio_Code-0078D4?style=for-the-badge&logo=visual%20studio%20code&logoColor=white)
 ![Colab logo](https://img.shields.io/badge/Colab-F9AB00?style=for-the-badge&logo=googlecolab&color=525252)
 
-### 5. GitStats:
+### 5. GitHub Stats:
 
-![Status](https://github-readme-stats.vercel.app/api?username={Ryanzin2023}&theme=blue-green)
-![Status](https://github-readme-stats.vercel.app/api/top-langs/?username={username}&theme=blue-green)
+![Strats](https://github-readme-stats.vercel.app/api?username=Ryanzin2023&theme=blue-green)
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Ryanzin2023&hide_progress=true)
 
