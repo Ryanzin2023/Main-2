@@ -69,7 +69,3 @@ Possuir seleção de musica.
 Cores de paginas conforme cada jogo especifico.
 Exemplo:Persona 3(Mass Destruction)Persona 4(heartbeat heartbreak)Persona 5(Last Surprise).
 Cada link selecionavel tera a cor correspondente ao seu jogo(Excluindo Personas).
-
-
-
-
