@@ -1,3 +1,37 @@
+Fandom Persona.
+
+Definição do Tema:
+
+A importância de um site brasileiro para os jogadores da série de jogos Persona.
+
+Problema de pesquisa:
+
+Objetivos gerais e especificos:
+
+Exemplos de Objetivos:
+
+a)Este projeto é feito para fãs da série de jogos Shin Megami Tensei:Persona
+b)Ele ira facilitar o meio de pesquisas sobre esta série de jogos para os fãs brasileiros
+
+Justificativa:
+
+a)Por que?
+Existem diversos sites gringos sobre esta série de jogos,então para uma pessoa que acaba 
+não se familiarizando muito com o inglês,acaba por ter dificuldades na hora de pesquisar
+sobre o assunto.
+
+b)O que?
+Este problema se da por causa de que muitas pessoas não pesquisam sobre isso
+por acabar não estando na lingua natal e acabam desistindo de fazer esta pesquisa.
+
+c)Quem?
+O alvo deste site são fãs brasileiros de Persona.
+Este projeto presa por oferecer um suporte a pessoas que não possuem familiaridade com
+inglês.
+Se tornando um site de ajuda para os jogadores brasileiros a entenderem melhor certas
+mecânicas,estilo de gameplay e etc.
+
+
 Ideia de Projeto:
 Site de Fandom Persona <======Exclusivo apenas a Persona.
 Serie Megami Tensei não conta como parte do site.
