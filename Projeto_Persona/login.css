@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Afacad', sans-serif;
+    font-family: 'Comfortaa', sans-serif;
     font-weight: lighter;
   }
   
@@ -94,7 +95,8 @@
     background-color: #2a6fee;
     color: #fff;
     font-weight: bold;
-    font: 36px "Arial", "Helvetica", "sans-serif";
+    font-family: 'Afacad', sans-serif;
+    font-family: 'Comfortaa', sans-serif;
     font-size: 18px;
     cursor: pointer;
     transition: background-color 0.3s ease;
