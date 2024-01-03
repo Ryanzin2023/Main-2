@@ -12,11 +12,13 @@ body {
   margin: 0;
   display: flex;
   justify-content: center;
-  background: linear-gradient(to right, blue 33%, gold 33%, gold 66%, red 66%);
+  align-items: center;
   font-family: Arial, sans-serif;
-  background-color: #f2f2f2;
+  background-color: #58053fd7;
   background-size: cover;
   background-position: center;
+  background-repeat: no-repeat;
+  overflow: hidden;
 }
 
 #sobre-tabela {
@@ -57,48 +59,3 @@ body {
   #sobre-tabela td i a:hover {
     text-decoration: underline; /* Adiciona sublinhado ao passar o mouse sobre o link, se desejar */
   }
-
-  #conteudo {
-    display: block;
-    color: #333;
-  }
-
-  .toggle-btn {
-    padding: 12px;
-    cursor: pointer;
-    background-color: #555555;
-    color: white;
-    border: none;
-    border-radius: 4px;
-    top: 0;
-    right: 0;
-    margin: 12px;
-    padding: 8px;
-  }
-
-    a {
-    color: purple;
-  }
-
-  /* Estilo para links visitados */
-  a:visited {
-    color: rgb(216, 17, 216);
-  }
-
-  /* Estilo para links quando passa o mouse por cima */
-  a:hover {
-    color: rgb(167, 1, 167);
-  }
-
-  .social-links img {
-    height: 24px;
-}
-
-.social-links li{
-    display: inline;
-    margin-right: 8px;
-}
-
-.social-links li a {
-    text-decoration: none;
-}
