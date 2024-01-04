@@ -8,8 +8,6 @@
 }
 
 body {
-  height: 100vh;
-  margin: 0;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -18,7 +16,6 @@ body {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  overflow: hidden;
 }
 
 #sobre-tabela {
@@ -45,17 +42,4 @@ body {
   
   #sobre-tabela th {
     background-color: #333;
-  }
-  
-  #sobre-tabela tr:last-child td {
-    border-bottom: none; /* Remove a linha de separação na última linha */
-  }
-
-  #sobre-tabela td i a {
-    color: purple; /* Cor roxa para o link */
-    text-decoration: none; /* Remove o sublinhado padrão dos links, se desejar */
-  }
-  
-  #sobre-tabela td i a:hover {
-    text-decoration: underline; /* Adiciona sublinhado ao passar o mouse sobre o link, se desejar */
   }

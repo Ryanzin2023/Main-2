@@ -7,7 +7,7 @@ function register() {
     var password = passwordInput.value.trim();
   
     if (email !== "" && password !== "") {
-      window.location.href = "site.html";
+      window.location.href = "index.html";
       return false;
     } else {
       registerMsg.innerHTML = "Por favor, preencha todos os campos.";
@@ -26,7 +26,7 @@ function register() {
     var password = passwordInput.value.trim();
   
     if (username !== "" && password !== "") {
-      window.location.href = "site.html";
+      window.location.href = "index.html";
       return false;
     } else {
       loginMsg.innerHTML = "Credenciais inválidas. Por favor, tente novamente.";

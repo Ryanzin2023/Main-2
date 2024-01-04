@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Afacad', sans-serif;
+    font-family: 'Comfortaa', sans-serif;
+    font-weight: lighter;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Arial, sans-serif;
+  background-color: #ff0000d7;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+#sobre-tabela {
+    background-color: black;
+    color: white;
+    padding: 50px;
+    max-width: 1200px;
+    margin: 0 auto;
+    border-radius: 20px; /* Adiciona bordas arredondadas */
+    overflow: hidden;
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.1); /* Adiciona uma sombra suave */
+  }
+  
+  #sobre-tabela table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  #sobre-tabela th, #sobre-tabela td {
+    padding: 15px;
+    text-align: left;
+    border-bottom: 1px solid white;
+  }
+  
+  #sobre-tabela th {
+    background-color: #333;
+  }
