@@ -12,7 +12,7 @@ body {
   justify-content: center;
   align-items: center;
   font-family: Arial, sans-serif;
-  background-color: #58053fd7;
+  background: var(--accent-color,#ff520c);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
