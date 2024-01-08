@@ -20,3 +20,5 @@ CREATE TABLE cliente (
   valor_transacoes_12m DOUBLE, 
   qtd_transacoes_12m BIGINT
 );
+
+INSERT INTO ()
