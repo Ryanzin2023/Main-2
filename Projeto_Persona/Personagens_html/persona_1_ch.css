@@ -77,3 +77,20 @@ th {
 tr:hover {
   background-color: #4b1246;
 }
+
+
+#portrait2 {
+  width: 500px; /* Ajuste a largura conforme necessário */
+  height: 500px; /* ou a altura desejada */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  margin: 0 auto; /* Adicione esta linha para centralizar horizontalmente */
+}
+
+#portrait2 img {
+  width: auto;
+  height: 100%;
+  object-fit: contain; /* ou object-fit: fill; dependendo da preferência */
+}
