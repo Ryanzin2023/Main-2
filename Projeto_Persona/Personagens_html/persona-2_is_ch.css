@@ -12,14 +12,14 @@ body {
   justify-content: center;
   align-items: center;
   font-family: Arial, sans-serif;
-  background-color: #a9a9a9;
+  background-color: #8b668b;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
 }
 
 #sobre-tabela {
-    background-color: black;
+    background-color: rgb(0, 0, 0);
     color: white;
     padding: 50px;
     max-width: 1200px;
@@ -30,7 +30,7 @@ body {
   }
 
   #sobre-tabela2 {
-    background-color: #a9a9a9;
+    background-color: #8b668b;
     color: white;
     padding: 50px;
     max-width: 1200px;
@@ -52,7 +52,7 @@ body {
   }
   
   #sobre-tabela th {
-    background-color: #333;
+    background-color: #000000;
   }
 
   #portrait {
@@ -86,7 +86,7 @@ th {
 }
 
 tr:hover {
-  background-color: #a9a9a9;
+  background-color: #8b668b;
 }
 
 
