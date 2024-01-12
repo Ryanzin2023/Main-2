@@ -17,8 +17,24 @@
             <div id="sobre-tabela">
                 <section id="sobre-tabela2">    
                     <div id="portrait2">
-                        <img src="../Personagens/" alt="Portrait">
+                        <img src="../Personagens/" alt="Portrait" id="imagemAtual">
                     </div>
+                    <button onclick="mudarFoto()">Mudar Foto</button>
+                    <script>
+                        var fotos = ["../Personagens/", "../Personagens/"];
+                        var fotoAtual = 0;
+                
+                        function mudarFoto() {
+                            var novaFoto = (fotoAtual + 1) % fotos.length;
+                            var img = new Image();
+                            img.onload = function() {
+                                
+                                document.getElementById("imagemAtual").src = img.src;
+                                fotoAtual = novaFoto; 
+                            };
+                            img.src = fotos[novaFoto];
+                        }
+                    </script>
                 </section>
             </div>
           <h2>
@@ -86,7 +102,7 @@
                 <th>Custo SP</th>
             </tr>
             <tr>
-                <td><a href=".." title="" style="color: #a9a9a9;"></a></td>
+                <td><a href=".." title="" style="color: #8b668b"></a></td>
                 <td></td>
                 <td></td>
                 <td></td>
@@ -144,6 +160,16 @@
         </table>
         <br>
         <h2>
+            Contato
+        </h2> <br><br>
+        <h2>
+            Contatos individuais:
+        </h2> <br>
+        <li><i></i></li>
+        <h2>
+            Contatos do grupo:
+        </h2> <br>
+        <h2>
             Citações de batalha:
         </h2> <br>
         <h2> 
@@ -152,12 +178,6 @@
         <p>
             <li><i></i></li>
         </p> <br>
-        <h2> 
-            Persona 2 - Castigo Eterno
-    </h2> <br>
-    <p>
-        <li><i></i></li>
-    </p> <br>
             Etimologia:
         </h2> <br>
         <li><i></i></li>

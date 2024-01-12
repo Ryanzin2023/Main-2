@@ -105,3 +105,18 @@ tr:hover {
   height: 100%;
   object-fit: contain; /* ou object-fit: fill; dependendo da preferência */
 }
+
+button {
+  padding: 10px 20px; /* Adiciona preenchimento ao botão */
+  background-color: #858585; /* Cor de fundo do botão */
+  color: #ffffff; /* Cor do texto do botão */
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease; /* Adiciona uma transição suave na mudança de cor de fundo */
+}
+
+button:hover {
+  background-color: #383838; /* Cor de fundo do botão ao passar o mouse */
+}
+

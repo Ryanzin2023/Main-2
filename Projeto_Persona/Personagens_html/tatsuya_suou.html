@@ -17,8 +17,24 @@
             <div id="sobre-tabela">
                 <section id="sobre-tabela2">    
                 <div id="portrait2">
-                    <img src="../Personagens/Tatsuya_Suou_render.webp" alt="Portrait">
+                    <img src="../Personagens/Tatsuya_Suou_render.webp" alt="Portrait" id="imagemAtual">
                 </div>
+                <button onclick="mudarFoto()">Mudar Foto</button>
+                <script>
+                    var fotos = ["../Personagens/Tatsuya_Suou_render.webp", "../Personagens/Tatsuya_full.webp"];
+                    var fotoAtual = 0;
+            
+                    function mudarFoto() {
+                        var novaFoto = (fotoAtual + 1) % fotos.length;
+                        var img = new Image();
+                        img.onload = function() {
+                            
+                            document.getElementById("imagemAtual").src = img.src;
+                            fotoAtual = novaFoto; 
+                        };
+                        img.src = fotos[novaFoto];
+                    }
+                </script>
             </section>
             </div>
           <h2>
