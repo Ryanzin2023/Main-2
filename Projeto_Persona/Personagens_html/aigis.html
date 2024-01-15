@@ -3,35 +3,39 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="../Personagens_html/persona-2_is_ch.css">
-    <title></title>
+    <link rel="stylesheet" type="text/css" href="persona_3.css">
+    <title>Aigis</title>
 </head>
 <body>
     <main>
       <section id="tela">
         <div class="container_flex">
-            <img src="../Fotos_adicionais/Persona_2_IS.png" alt="Logo" style="margin-left: 250px;">
+            <img src="../Fotos_adicionais/Persona_3.webp" alt="Logo" style="margin-left: 250px;">
             </div>
         </section>
         <section id="sobre-tabela">
             <div id="sobre-tabela">
                 <section id="sobre-tabela2">    
                     <div id="portrait2">
-                        <img src="../Personagens/" alt="Portrait" id="imagemAtual">
+                        <img src="../Personagens/P3_Aigis.webp" alt="Portrait" id="imagemAtual">
+                        <div id="texto" class="texto-sobre-imagem">Visual Persona 3</div>
                     </div>
                     <button onclick="mudarFoto()">Mudar Foto</button>
                     <script>
-                        var fotos = ["../Personagens/", "../Personagens/"];
+                        var fotos = ["../Personagens/P3_Aigis.webp", "../Personagens/P3FES_Aigis_Render.webp", "../Personagens/P3RE_Aigis_art.webp"
+                        , "../Personagens/Aigis_Battle.webp", "../Personagens/AegisP4A.webp", "../Personagens/P3D_Aigis.webp", "../Personagens/PQ_Aigis.webp", "../Personagens/PQ2_Aigis.webp"];
+                        var textos = ["Visual Persona 3 FES", "Visual Persona 3 Reload", "Visual Persona 3 Reload Combate","Visual Persona 4A",
+                            "Visual Persona 3 Dancing In Moonlight", "Visual Persona 3 Q", "Visual Persona 3 Q2", "Visual Persona 3" ];
                         var fotoAtual = 0;
                 
                         function mudarFoto() {
                             var novaFoto = (fotoAtual + 1) % fotos.length;
                             var img = new Image();
                             img.onload = function() {
-                                
-                                document.getElementById("imagemAtual").src = img.src;
-                                fotoAtual = novaFoto; 
-                            };
+                            document.getElementById("imagemAtual").src = img.src;
+                            document.getElementById("texto").textContent = textos[fotoAtual];
+                            fotoAtual = novaFoto;
+                        };
                             img.src = fotos[novaFoto];
                         }
                     </script>

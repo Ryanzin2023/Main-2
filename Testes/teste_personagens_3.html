@@ -3,14 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="../Personagens_html/persona-2_is_ch.css">
+    <link rel="stylesheet" type="text/css" href="../Personagens_html/">
     <title></title>
 </head>
 <body>
     <main>
       <section id="tela">
         <div class="container_flex">
-            <img src="../Fotos_adicionais/Persona_2_IS.png" alt="Logo" style="margin-left: 250px;">
+            <img src="../Fotos_adicionais/" alt="Logo" style="margin-left: 250px;">
             </div>
         </section>
         <section id="sobre-tabela">
@@ -18,20 +18,22 @@
                 <section id="sobre-tabela2">    
                     <div id="portrait2">
                         <img src="../Personagens/" alt="Portrait" id="imagemAtual">
+                        <div id="texto" class="texto-sobre-imagem"></div>
                     </div>
                     <button onclick="mudarFoto()">Mudar Foto</button>
                     <script>
-                        var fotos = ["../Personagens/", "../Personagens/"];
+                        var fotos = [""];
+                        var textos = ["" ];
                         var fotoAtual = 0;
                 
                         function mudarFoto() {
                             var novaFoto = (fotoAtual + 1) % fotos.length;
                             var img = new Image();
                             img.onload = function() {
-                                
-                                document.getElementById("imagemAtual").src = img.src;
-                                fotoAtual = novaFoto; 
-                            };
+                            document.getElementById("imagemAtual").src = img.src;
+                            document.getElementById("texto").textContent = textos[fotoAtual];
+                            fotoAtual = novaFoto;
+                        };
                             img.src = fotos[novaFoto];
                         }
                     </script>
