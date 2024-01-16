@@ -12,7 +12,7 @@ body {
   margin: 0;
   display: flex;
   justify-content: center;
-  background: linear-gradient(to right, blue 33%, gold 33%, gold 66%, red 66%);
+  background: linear-gradient(to right, #4372aa 33%, #ffe600 33%, #ffe600 66%, #f41000 66%);
   font-family: Arial, sans-serif;
   background-color: #f2f2f2;
   background-size: cover;

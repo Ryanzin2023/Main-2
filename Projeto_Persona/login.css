@@ -32,19 +32,19 @@
   
       @keyframes colorChange {
         0%, 100% {
-            box-shadow: 0 0 15px #00f; /* Azul */
+            box-shadow: 0 0 15px #a9a9a9; /* Azul */
         }
         20% {
-            box-shadow: 0 0 15px #ffd700; /* Dourado */
+            box-shadow: 0 0 15px #8b668b; /* Dourado */
         }
         40% {
-            box-shadow: 0 0 15px #000; /* Preto */
+            box-shadow: 0 0 15px #4372aa; /* Preto */
         }
         60% {
-            box-shadow: 0 0 15px #800080; /* Roxo */
+            box-shadow: 0 0 15px #ffe600; /* Roxo */
         }
         80% {
-            box-shadow: 0 0 15px  #ff0000; /* Vermelho */
+            box-shadow: 0 0 15px  #f41000; /* Vermelho */
         }
       }
   
