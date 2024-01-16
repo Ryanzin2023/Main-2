@@ -131,3 +131,18 @@ button:hover {
     font-weight: bold;
     text-shadow: 2px 2px 2px black;
   }
+
+  .persona-container {
+    display: flex;
+    justify-content: space-around;
+    cursor: pointer;
+    background-color: #4372aa;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.persona-table {
+    display: none;
+    margin-top: 10px;
+}
