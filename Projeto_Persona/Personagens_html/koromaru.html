@@ -1,0 +1,438 @@
+<!DOCTYPE html>
+<html lang="PT-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="../Personagens_html/persona_3.css">
+    <title>Koromaru</title>
+</head>
+<body>
+    <main>
+      <section id="tela">
+        <div class="container_flex">
+            <img src="../Fotos_adicionais/Persona_3.webp" alt="Logo" style="margin-left: 320px;">
+            </div>
+        </section>
+        <section id="sobre-tabela">
+            <div id="sobre-tabela">
+                <section id="sobre-tabela2">    
+                    <div id="portrait2">
+                        <img src="../Personagens/Koromaru.webp" alt="Portrait" id="imagemAtual">
+                        <div id="texto" class="texto-sobre-imagem">Visual Persona 3</div>
+                    </div>
+                    <button onclick="mudarFoto()">Mudar Foto</button>
+                    <script>
+                        var fotos = ["../Personagens/Koromaru.webp", "../Personagens/P3RE_Koromaru.webp", "../Personagens/Koromaru_Battle.webp"
+                        , "../Personagens/Koromaru_P4U_Artwork.webp", "../Personagens/PQ_-_Koromaru.webp", "../Personagens/PQ2_Koromaru.webp"];
+                        var textos = ["Visual Persona 3 Reload", "Visual Persona 3 Reload Combate","Visual Persona 4A",
+                        "Visual Persona 3 Q", "Visual Persona 3 Q2", "Visual Persona 3" ];
+                        var fotoAtual = 0;
+                
+                        function mudarFoto() {
+                            var novaFoto = (fotoAtual + 1) % fotos.length;
+                            var img = new Image();
+                            img.onload = function() {
+                            document.getElementById("imagemAtual").src = img.src;
+                            document.getElementById("texto").textContent = textos[fotoAtual];
+                            fotoAtual = novaFoto;
+                        };
+                            img.src = fotos[novaFoto];
+                        }
+                    </script>
+                </section>
+            </div>
+          <h2>
+            Koromaru
+          </h2> <br>
+          <p>
+            "Uau! Uau, au! Arf! Arf!"
+            —Koromaru, Persona 3
+          </p> <br>
+          <h2>
+            Aparições:
+          </h2> <br>
+          <li><i><td><a href="../Jogos/persona_3.html" title="Persona 3" style="color: #4372aa">Persona 3</a> /</td>
+            <td><a href="../Jogos/persona_3_fes.html" title="Persona 3 FES" style="color: #4372aa">FES</a> /</td>
+            <td><a href="../Jogos/persona_3_portable.html" title="Persona 3 Portable" style="color: #4372aa">Portable</a> /</td>
+            <td><a href="../Jogos/persona_3_reload.html" title="Persona 3 Reload" style="color: #4372aa">Reload</a></td>: Personagem Jogável</i></li>
+              <li><i><td><a href="../Jogos/persona_3_dim.html" title="Persona 3 Dancing In Moonlight" style="color: #4372aa">Persona 3 Dancing In Moonlight</a></td>: Cameo DLC</i></li>
+              <li><i><td><a href="../Jogos/persona_5_dis.html" title="Persona 5 Dancing In Starlight" style="color: #4372aa">Persona 5 Dancing In Starlight</a></td>: Cameo DLC</i></li>
+              <li><i><td><a href="../Jogos/persona_4_arena.html" title="Persona 4 Arena" style="color: #4372aa">Persona 4 Arena</a></td> /
+              <td><a href="../Jogos/persona_4_arena_ultimax.html" title="Persona 4 Arena Ultimax" style="color: #4372aa">Ultimax</a></td>: personagem jogável (emparelhado com <td><a href="../Personagens_html/ken_amada.html" title="Ken Amada" style="color: #4372aa">Ken Amada</a></td> )</i></li>
+              <li><i><td><a href="../Jogos/personaq.html" title="Persona Q: Shadow of the Labyrinth" style="color: #4372aa">Persona Q: Shadow of the Labyrinth</a></td>: Personagem Jogavel</i></li>
+              <li><i><td><a href="../Jogos/personaq.html" title="Persona Q: Shadow of the Labyrinth - Lado P3" style="color: #4372aa">Persona Q: Shadow of the Labyrinth - Lado P3</a></td>: Personagem Principal</i></li>
+              <li><i><td><a href="../Jogos/personaq.html" title="Persona Q: Shadow of the Labyrinth - Lado P4" style="color: #4372aa">Persona Q: Shadow of the Labyrinth - Lado P4</a></td>: Personagem Coadjuvante</i></li>
+              <li><i><td><a href="../Jogos/personaq2.html" title="Persona Q2: New Cinema Labyrinth" style="color: #4372aa">Persona Q2: New Cinema Labyrinth</a></td>: Personagem Jogável</i></li>
+          <h2>
+            Design:
+        </h2> <br>
+        <p>
+            Koromaru é um pequeno Shiba Inu branco e cinza com olhos vermelhos. Quando ingressou no SEES, 
+            ele ganhou um Evoker especial feito para cães: uma coleira metálica em volta do pescoço. 
+            Ele tem uma braçadeira vermelha na perna esquerda dianteira, uma camiseta branca em 
+            miniatura e pequenas asas de anjo nas costas.
+        </p><br>
+        <h1>
+            Reload
+        </h1><br>
+        <p>
+            Em Persona 3 Reload , o novo equipamento de batalha de Koromaru consiste em um colete tático 
+            preto junto com uma ombreira marcada como "8".
+        </p>
+        <h1>
+            Persona 4 Arena Ultimax
+        </h1><br>
+        <p>
+            Em Persona 4 Arena Ultimax, ele continua usando sua gola e asas Evoker personalizadas, mas 
+            também usa a jaqueta laranja que <td><a href="../Personagens_html/ken_amada.html" title="Ken Amada" style="color: #4372aa">Ken Amada</a></td> usou durante os eventos de Persona 3 em vez da 
+            camisa branca anterior.
+
+            Seus “ óculos de TV ” são óculos vermelhos.
+        </p><br>
+        <h1>
+            Desenvolvimento:
+        </h1>
+        <p>
+Segundo Shigenori Soejima , a ideia de incluir um cachorro na party existia desde o início; a 
+parte difícil foi escolher uma raça. Cães pequenos como Chihuahuas ou Pomeranians não podiam ser 
+usados ​​devido ao seu tamanho, então a equipe realizou uma pesquisa de popularidade para 
+decidir sobre seu tipo. Os Dobermans pareceriam muito assustadores, embora o Cerberus de 
+Koromaru tenha sido aparentemente modelado a partir de um, representando seu lado mais feroz, 
+então a decisão final foi entre um Husky e um Shiba Inu, embora a princípio Soejima tenha 
+escolhido um Dálmata . A enquete decidiu por um Shiba Inu, mas um cachorro normal ficaria muito simples, 
+então o próximo passo foi escolher algumas roupas. Sendo o cachorro de um sacerdote xintoísta , 
+Soejima pensou em dar a Koromaru as mesmas roupas. No universo, as asas presas ao seu traje 
+foram ideia de Yukari e Fuuka .<br><br>
+
+Durante o desenvolvimento do Persona 3 original , todos os clipes de voz de Koromaru 
+foram retirados da biblioteca de estoque. Em Persona 3 The Movie , 
+Koromaru recebeu um dublador dedicado para adicionar mais emoção ao personagem. 
+Embora não seja creditado no cinema, Shinya Takahashi reprisou o papel em <td><a href="../Jogos/persona_3_reload.html" title="Persona 3 Reload" style="color: #4372aa">Persona 3 Reload</a></td> .
+        </p><br>
+        <h2>
+            Personalidade:
+        </h2> <br>
+        <p>
+            A personalidade de Koromaru é baseada no famoso cachorro Hachikō . Ele é gentil e 
+            demonstrou extrema lealdade, optando por ficar no santuário de seu mestre muito depois 
+            de sua morte e caminhando todos os dias como costumava fazer com seu mestre. Ele também é 
+            muito protetor com o santuário , como demonstrado quando arriscou a vida para defendê-lo, 
+            mas ficou gravemente ferido no processo. Segundo <td><a href="../Personagens_html/aigis.html" title="Aigis" style="color: #4372aa">Aigis</a></td> , ele considera o santuário um lugar 
+            sagrado.<br><br>
+
+            Koromaru também exibe inúmeras características humanas, apesar de ser um cachorro. Ele exibe 
+            uma inteligência muito superior à da maioria dos cães. Ele é extremamente leal e 
+            particularmente próximo de <td><a href="../Personagens_html/shinjiro_aragaki.html" title="Shinjiro Aragaki" style="color: #4372aa">Shinjiro Aragaki</a></td> , que muitas vezes o alimenta com comida 
+            especial e toma cuidado extra com ele. Ele é fã de um programa chamado “As verdadeiras batalhas 
+            de homens reais”, que exibe atos de coragem de pessoas reais. Ele implora ao <td><a href="../Personagens_html/makoto_yuki.html" title="Makoto Yuki" style="color: #4372aa">protagonista</a></td>
+            que o leve ao teatro para uma exibição especial dos episódios finais do espetáculo. 
+            Koromaru choraminga e corre atrás do filme até que o protagonista concorda em 
+            comprar a caixa após seu lançamento.<br><br>
+            
+            Em Persona Q: Shadow of the Labyrinth , mesmo se dando bem com todos, ele 
+            não gosta de <td><a href="../Personagens_html/kanji_tatsumi.html" title="Kanji Tatsumi" style="color: #4372aa">Kanji Tatsumi</a></td> por algum motivo inexplicável e se recusa a 
+            deixar Kanji acariciá-lo.<br><br>
+            
+            De todos os membros (sobreviventes) do SEES, Koromaru parece ser o mais próximo de <td><a href="../Personagens_html/ken_amada.html" title="Ken Amada" style="color: #4372aa">Ken</a></td> , 
+            a julgar pela sua decisão de ir morar com ele, como mostrado em Persona 4 Arena Ultimax .
+        </p> <br>
+        <h2>
+            Perfil:
+        </h2> <br>
+        <h2>
+            Persona 3 - A Jornada
+        </h2> <br>
+        <p>
+Koromaru é um cão Shiba Inu que se junta ao Esquadrão Especializado de Execução Extracurricular em 
+Persona 3 . Koromaru era um cachorro de rua com quem <td><a href="../Personagens_html/fuuka_yamagishi.html" title="Fuuka Yamagishi" style="color: #4372aa">Fuuka Yamagishi</a></td> 
+e <td><a href="../Personagens_html/yukari_takeba.html" title="Yukari Takeba" style="color: #4372aa">Yukari Takeba</a></td> brincavam regularmente. 
+Uma dona de casa conta a eles que o mestre de Koromaru, um monge do Santuário de Naganaki , morreu em um 
+acidente (cerca de 6 meses atrás, em 20 de junho). Koromaru continuou a proteger o santuário e esperou 
+pelo retorno de seu mestre.<br><br>
+
+Uma noite (29 de julho), um Shadow desonesto é detectado fora do Tártaro . A sombra vagueia pela área do 
+santuário, onde é morta por Koromaru. <td><a href="../Personagens_html/akihiko_sanada.html" title="Akihiko Sanada" style="color: #4372aa">Akihiko Sanada</a></td> consegue chegar ao santuário, apenas para encontrar 
+a sombra derrotada e Koromaru ferido. Akihiko está muito impressionado com a bravura e inteligência do cão, 
+e <td><a href="../Personagens_html/mitsuru_kirijo.html" title="Mitsuru Kirijo" style="color: #4372aa">Mitsuru Kirijo</a></td> garante que ele receba os melhores cuidados veterinários possíveis.<br><br>
+
+Em 8 de agosto, Shuji Ikutsuki decide fazer um Evoker especial para Koromaru, que ele pode usar como 
+coleira. Ele também usa roupas de proteção e luta com facas. Koromaru se junta ao SEES depois de se 
+recuperar dos ferimentos. Koromaru não consegue se comunicar diretamente com seus colegas de dormitório, 
+mas eles conseguem entendê-lo por meio de suas ações e da tradução de Aigis para ele.<br><br>
+
+Koromaru é chamado de "uma fera branca com olhos vermelhos" por Akinari Kamiki , cuja caneta é roubada 
+pelo cachorro. Akinari não parece muito zangado com o roubo da caneta, mas não falará com o protagonista 
+até que ele recupere a caneta.
+        </p><br>
+        <h2>
+            FES
+        </h2> <br>
+        <p>
+Em The Journey in FES , o protagonista pode levar Koromaru para passear em certas noites. Normalmente, 
+Koromaru vai ao santuário para brincar. Às vezes, um colega de dormitório acompanha o protagonista, 
+onde eles conversam enquanto Koromaru joga. Caso o protagonista vá sozinho com Koromaru, ele ganhará um 
+item aleatório, ou terá um encontro com um Social Link , o que permitirá que seu relacionamento se 
+aprofunde.<br><br>
+
+Os itens aleatórios que podem ser obtidos quando o protagonista leva Koromaru para passear sozinho são:
+
+<li>Touro louco</li>
+<li>Amuleto da sorte</li>
+<li>Joia Trafuri</li>
+<li>Jóia Traesto</li>
+<li>Bálsamo da Vida</li>
+<li>Homúnculo</li>
+        </p><br>
+        <h2>
+            Portable
+        </h2> <br>
+        <p>
+            Koromaru agora é um Elo Social da Arcana da Força . Porém, seu Social Link está disponível 
+            apenas para a protagonista feminina . A protagonista feminina 
+            precisará obter Dog Food de Fuuka para iniciar este Social Link, 
+            que ela dá durante um de seus eventos de Social Link. O Social Link de 
+            Koromaru poderá então ser iniciado já em 15 de agosto. A protagonista feminina só 
+            poderá levar Koromaru para passear após completar seu Social Link.
+        </p><br>
+        <h2>
+            A Resposta
+        </h2> <br>
+        <p>
+            Através das memórias de Junpei no Abismo do Tempo , é revelado que Koromaru ficou ao lado de 
+            <td><a href="../Personagens_html/junpei_iori.html" title="Junpei Iori" style="color: #4372aa">Junpei</a></td> durante uma noite no Paulownia Mall enquanto ele estava deprimido por causa do problema 
+            de alcoolismo de seu pai. Por mais inteligente que seja, Koromaru entendeu que Junpei precisava 
+            de alguém para ficar ao seu lado, algo que Junpei percebeu ao ver a cena novamente e agora 
+            lembra com carinho. Algumas horas depois disso, a Hora Negra entrou em vigor e Junpei conheceu 
+            Akihiko e despertou para sua Persona .<br><br>
+
+            Durante os eventos que levaram <td><a href="../Personagens_html/aigis.html" title="Aigis" style="color: #4372aa">Aigis</a></td> , 
+            <td><a href="../Personagens_html/metis.html" title="Metis" style="color: #4372aa">Metis</a></td> e Fuuka a lutar contra os membros do SEES, 
+            Koromaru e Junpei se uniram, agindo como um grupo neutro. Eles pretendem neutralizar a todos 
+            para que possam se acalmar e depois pensar com clareza sobre o que realmente querem fazer.
+        </p><br>
+        <h2>
+            Persona Q: Shadow of Labyrinth
+        </h2> <br>
+        <p><br>
+Após os dois heróis completarem o pedido , The Power of the Wild Card , Margaret explica a todos como suas 
+Personas podem agora evoluir e alcançar novos poderes . Koromaru e Shinjiro ficam por perto depois que 
+todos os outros são dispensados, e perguntam se é possível para eles manter suas Personas, em vez de obter 
+novas. Koromaru explica, através de Aigis, que ele despertou sua Persona quando Shadows atacou o santuário 
+que ele costumava proteger com seu dono, e agora ele o usa para proteger a casa de seu falecido dono; ele 
+diz que não quer que sua Persona mude para que ele nunca esqueça seu fracasso em proteger seu dono. Margaret 
+diz a eles que deveria ser possível que suas Personas permanecessem as mesmas se eles se concentrassem em 
+manter as coisas iguais quando começarem a alcançar um novo poder.<br><br>
+
+O ataque cooperativo de Koromaru atinge todos os inimigos na primeira fila.<br><br>
+
+Durante a história do P4 , enquanto se aventura pelo Evil Spirit Club , o grupo encontra um INIMIGO e se 
+esconde no banheiro masculino. Teddie cai no chão e não consegue se levantar, o que leva Koromaru a 
+puxá-lo para a barraca com o herói P3 e Kanji Tatsumi , que insiste incessantemente em acariciá-lo.
+        </p><br>
+        <h2>
+            Persona Q2: New Cinema Labyrinth
+        </h2> <br>
+        <p>
+Koromaru e sua equipe estão em uma missão regular no Tártaro quando o chão desaba de repente. Todos 
+subiram as escadas correndo e acabaram em um mundo de filmes de ficção científica , onde mais tarde 
+foram atacados por um exército de Sombras. Com os esforços combinados dos Ladrões Fantasmas de Corações e 
+da Equipe de Investigação , eles conseguem despachar as Sombras. Eles também são recebidos pela <td><a href="../Personagens_html/kotone_shiomi.html" title="Kotone Shiomi" style="color: #4372aa">heroína P3</a></td> 
+que ninguém conhece por ter sido anunciada no mundo onde seu líder era o herói P3 . No entanto, eles acabam 
+confiando um no outro. Koromaru também aprende um ataque uníssono com Morgana dos Ladrões Fantasmas e 
+Teddie da Equipe de Investigação.<br><br>
+
+Assim como o verdadeiro Aigis , Ribbon pode traduzir os discursos do cachorro de Koromaru. Ela também o 
+acha fofo e gostaria de acariciá-lo.<br><br>
+
+Seus poderes combinados lhes permitem derrotar os inimigos e o culpado por trás de todo o esquema: Enlil . 
+Com a derrota, Koromaru pode voltar para casa com o resto do SEES. Mais tarde, eles assistem a um filme de 
+ficção científica juntos.
+        </p><br>
+            <h2>
+                Estatísticas
+            </h2>
+            <table class="arcanos-table" id="arcanosTable">
+                <tr>
+                    <th>Arcano</th>
+                    <th>Nível</th>
+                    <th>HP</th>
+                    <th>SP</th>
+                    <th>Força</th>
+                    <th>Magia</th>
+                    <th>Resistência</th>
+                    <th>Agilidade</th>
+                    <th>Sorte</th>
+                </tr>
+                <tr>
+                    <td>Força</td>
+                    <td>77</td>
+                    <td>2000</td>
+                    <td>?</td>
+                    <td>45</td>
+                    <td>82</td>
+                    <td>52</td>
+                    <td>85</td>
+                    <td>48</td>
+                </tr>
+            </table>
+            
+            <table class="customtable">
+                <tr>
+                    <th>Golpear</th>
+                    <th>Batida</th>
+                    <th>Perfurar</th>
+                    <th>Fogo</th>
+                    <th>Gelo</th>
+                    <th>Eletricista</th>
+                    <th>Vento</th>
+                    <th>Luz</th>
+                    <th>Escuro</th>
+                    <th>Almi</th>
+                </tr>
+                <tr>
+                    <td>-</td>
+                    <td>-</td>
+                    <td>-</td>
+                    <td>Nulo</td>
+                    <td>-</td>
+                    <td>-</td>
+                    <td>-</td>
+                    <td>Nulo</td>
+                    <td>Nulo</td>
+                    <td>-</td>
+                </tr>
+            </table>
+            <table class="customtable">
+                <tr>
+                    <th>Habilidade</th>
+                    <th>Efeito</th>
+                </tr>
+                <tr>
+                    <td>Slash Attack</td>
+                    <td>Ataque normal usando o atributo Slash.</td>
+                </tr>
+                <tr>
+                    <td>Charmdi</td>
+                    <td>Dissipa Feitiço (1 aliado).</td>
+                </tr>
+                <tr>
+                    <td>Mind Charge</td>
+                    <td>Duplica o dano mágico causado no próximo turno. (2x dano)</td>
+                </tr>
+                <tr>
+                    <td>Agidyne</td>
+                    <td>Causa grande dano de Fogo a um inimigo.</td>
+                </tr>
+                <tr>
+                    <td>Maragidyne</td>
+                    <td>Causa grande dano de Fogo a todos os inimigos.</td>
+                </tr>
+                <tr>
+                    <td>Mudoon</td>
+                    <td>Escuridão: morte instantânea, 1 inimigo (probabilidades altas). (40% de chance)</td>
+                </tr>
+                <tr>
+                    <td>Mamudoon</td>
+                    <td>Escuridão: morte instantânea, todos os inimigos (probabilidades altas). (35% de chance)</td>
+                </tr>
+                <tr>
+                    <td>Megidolaon</td>
+                    <td>Causa severo dano Todo-Poderoso a todos os inimigos.</td>
+                </tr>
+                <tr>
+                    <td>Evil Smile</td>
+                    <td>Instila medo em todos os inimigos. (40% de chance)</td>
+                </tr>
+                <tr>
+                    <td>Ghastly Wail</td>
+                    <td>Mata instantaneamente todos os inimigos que estão com medo.</td>
+                </tr>
+                <tr>
+                    <td>https://megamitensei.fandom.com/wiki/Brave_Blade</td>
+                    <td>Causa dano de corte severo a um inimigo.</td>
+                </tr>
+                <tr>
+                    <td>Stagnant Air</td>
+                    <td>Duplica a suscetibilidade a doenças para todos por três turnos.</td>
+                </tr>
+                <tr>
+                    <td>Life Drain</td>
+                    <td>Drena uma quantidade moderada de HP de um inimigo.</td>
+                </tr>
+                <tr>
+                    <td>High Counter</td>
+                    <td>Contra-ataques físicos (probabilidades altas). (50% de chance)</td>
+                </tr>
+                <tr>
+                    <td>Sharp Student</td>
+                    <td>Reduz as chances de sofrer danos críticos.</td>
+                </tr>
+            </table>
+            <br>
+        <h2>
+            Etimologia:
+        </h2> <br>
+        <li><i>O nome Koromaru significa "lobo tigre" (虎狼) ( koro ) e "redondo, círculo, pílulas, 
+            pureza, sufixo para nomes de navios, completo" (丸) ( maru ). "Koromaru" é um nome dado às 
+            crianças como um desejo para que cresçam fortes e tenham uma vida longa.
+            Em outros idiomas</i></li><br>
+            <h2>
+                Curiosidades:
+            </h2> <br>
+            <li><i>Koromaru parece ser baseado em Hachikō, um Akita famoso no Japão. Hachikō via seu dono, 
+                um professor da Universidade de Tóquio, sair para trabalhar todos os dias e esperar pelo 
+                professor na estação de trem à noite. Seu dono morreu de hemorragia craniana enquanto dava 
+                uma palestra, mas Hachikō continuou a aparecer na estação, esperando o retorno de seu dono. 
+                Hachikō aparecia todas as noites quando os trens chegavam, na esperança de ver o professor. 
+                A lealdade do cão ao seu dono fez com que ele voltasse à estação de Shibuya todos os dias 
+                durante quase dez anos, algo que inspirou e impressionou outras pessoas. Quando Hachikō 
+                morreu, uma estátua foi erguida na estação em sua memória e seus restos mortais foram 
+                empalhados e colocados em um museu.</i></li><br><br>
+            <li><i>Além disso, se Elizabeth for designada como suporte de batalha do jogador em Persona Q e 
+                Koromaru ficar petrificado, ela comentará que “ele parece pertencer a uma estação de trem”. 
+                Esta é uma referência à estátua de Hachikō.</i></li><br><br>
+            <li><i>Koromaru não é a única referência a Hachikō na série Megami Tensei . Alguns casos 
+                incluem:</i></li><br><br>
+            <li><i>Em Shin Megami Tensei III: Nocturne , após derrotar o primeiro chefe, Forneus , 
+                um Decarabia pode ser encontrado do lado de fora perto de uma estátua de Hachikō, 
+                esperando por seu amigo Forneus, sem perceber que ele já foi morto.</i></li><br><br>
+            <li><i>Em Persona 4 Golden , um filme chamado “ Dachiko Story ” pode ser visto. É um dos 
+                favoritos de Kanji Tatsumi .</i></li><br><br>
+            <li><i>Em Persona 5 , uma estátua de um cachorro chamado Buchiko pode ser encontrada em Shibuya. 
+                Além disso, um livro chamado A História de Buchiko pode ser lido: Morgana comenta que 
+                ele chora toda vez que o lê.</i></li><br><br>
+            <li><i>Em Soul Hackers 2 , Arrow e Milady discutem um filme chamado "Pochi the Loyal Dog", 
+                um dos favoritos de ambos, mas Milady fica com vergonha de admitir.</i></li><br><br>
+            <li><i>Além de Shinjiro Aragaki, Koromaru é o único membro do grupo Persona 3 e Persona Q que 
+                não obteve uma Persona definitiva. Em vez disso, Cerberus permanece como sua Persona 
+                durante todo o jogo.</i></li><br><br>
+            <li><i>Aigis é a única que consegue “entender” o que Koromaru tem a “dizer”. Assim que Aigis 
+                desperta para os poderes do Wild Card em The Answer , ela entende cada vez menos tudo o 
+                que Koromaru tenta dizer a ela. Parece que, ao se tornar mais “humana”, Aigis também perde 
+                algumas de suas características não-humanas.</i></li><br><br>
+            <li><i>Koromaru é o único personagem importante em Persona 3 a trocar a paleta por um personagem 
+                diferente.</i></li><br><br>
+            <li><i>De acordo com as traduções de Aigis, ao vê-la com o uniforme da Gekkoukan High , 
+                Koromaru quis ir para a escola, mas foi infelizmente rejeitado pelo grupo.</i></li><br><br>
+            <li><i>É possível que em Persona 4 Arena Ultimax , já que todos os outros membros do 
+                SEES haviam se formado, Koromaru se tornou bastante próximo de Ken 
+                já que ele ainda estava na escola. Pode ser por isso que ele luta ao lado de 
+                Ken como um personagem.</i></li><br><br>
+            <li><i>Além disso, isso poderia ser uma referência ao fato de Koromaru ser muito próximo de 
+                Shinjiro Aragaki, já que muitas vezes era ele quem o alimentava, 
+                mesmo quando ele estava nas ruas. Ken é possivelmente agora o zelador de 
+                Koromaru, assim como Shinjiro já foi.</i></li><br><br>
+            <li><i>Na Persona 4 Arena The Ultimax Ultra Suplex Hold Official Design Work , 
+                a arte conceitual de Koromaru mostrava originalmente que ele teria filhotes com outro 
+                cachorro, todos usando lenços vermelhos combinando. No entanto, se Koromaru cruzou 
+                com outro cachorro nunca é afirmado em Persona 4 Arena Ultimax .</i></li><br><br>
+            <li><i>Yukiko Amagi costumava chamar Koromaru por nomes diferentes - 
+                especificamente nomes de generais de guerra japoneses, como Chie mencionou. 
+                Ela o chamou de Chosokabe , Masamune e Nobunaga , 
+                provavelmente em homenagem a Chosokabe Motochika , Date Masamune e Oda Nobunaga , 
+                respectivamente.</i></li><br><br>
+            <li><i>Koromaru é o único usuário jogável da Persona da Arcana de Força.</i></li><br><br>
+        </section>
+    </main>
+</body>
+</html>
