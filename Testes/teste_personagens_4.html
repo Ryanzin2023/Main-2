@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="PT-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="../Personagens_html/persona_4.css">
+    <title></title>
+</head>
+<body>
+    <main>
+      <section id="tela">
+        <div class="container_flex">
+            <img src="../Fotos_adicionais/Persona_4.png" alt="Logo" style="margin-left: 400px;" width="260px">
+            </div>
+        </section>
+        <section id="sobre-tabela">
+            <div id="sobre-tabela">
+                <section id="sobre-tabela2">    
+                    <div id="portrait2">
+                        <img src="../Personagens/" alt="Portrait" id="imagemAtual">
+                        <div id="texto" class="texto-sobre-imagem">Visual Persona 4/Golden</div>
+                    </div>
+                    <button onclick="mudarFoto()">Mudar Foto</button>
+                    <script>
+                        var fotos = ["../Personagens/", "../Personagens/", "../Personagens/"
+                        , "../Personagens/", "../Personagens/"];
+                        var textos = ["Visual Persona 4A", "Visual Persona 4 Dancing All Night",
+                            "Visual Persona 3 Q", "Visual Persona 3 Q2", "Visual Persona 4/Golden" ];
+                        var fotoAtual = 0;
+                
+                        function mudarFoto() {
+                            var novaFoto = (fotoAtual + 1) % fotos.length;
+                            var img = new Image();
+                            img.onload = function() {
+                            document.getElementById("imagemAtual").src = img.src;
+                            document.getElementById("texto").textContent = textos[fotoAtual];
+                            fotoAtual = novaFoto;
+                        };
+                            img.src = fotos[novaFoto];
+                        }
+                    </script>
+                </section>
+            </div>
+          <h2>
+          </h2> <br>
+          <p>
+           
+          </p> <br>
+          <h2>
+            Aparições:
+          </h2> <br>
+          <li><i><td><a href="../Jogos/persona_4.html" title="Persona 4" style="color: #ffe600">Persona 4</a>/</td>
+            <td><a href="../Jogos/persona_4_golden.html" title="Persona 4 Golden" style="color: #ffe600">Golden</a>: </td></i></li> 
+            <li><i><td><a href="../Jogos/persona_4_arena.html" title="Persona 4 Arena" style="color: #ffe600">Persona 4 Arena</a>/</td>
+            <td><a href="../Jogos/persona_4_arena_ultimax.html" title="Persona 4 Arena Ultimax" style="color: #ffe600">Ultimax</a>: </td>
+            <li><i><td><a href="../Jogos/persona_4_dan.html" title="Personan 4 Dancing All Night" style="color: #ffe600">Personan 4 Dancing All Night</a> : personagem jogável </td></i></li>
+            <li><i><td><a href="../Jogos/personaq.html" title="Persona Q: Shadow of the Labyrinth" style="color: #ffe600">Persona Q: Shadow of the Labyrinth</a> : Personagem Jogável ( Rota P4 ), Membro de Party ( Rota P3 )</td></i></li>
+            <li><i><td><a href="../Jogos/personaq2.html" title="Persona Q2: New Cinema Labyrinth" style="color: #ffe600">Persona Q2: New Cinema Labyrinth</a></td>: Personagem Jogável</i></li>
+            <li><i><td><a href="../Jogos/persona_3_dim.html" title="Persona 3 Dancing In Moonlight" style="color: #ffe600">Persona 3 Dancing In Moonlight</a>: Cameo (DLC)</td></i></li>
+            <li><i><td><a href="../Jogos/persona_5_dis.html" title="Persona 5 Dancing In Starlight" style="color: #ffe600">Persona 5 Dancing In Starlight</a>: Cameo (DLC)</td></i></li>
+          </i>
+            <h2>
+            Design:
+        </h2> <br>
+        <p>
+
+        </p>
+        <h1>
+            Persona 4/Golden
+        </h1><br>
+        <p>
+        </p>
+        <h1>
+            Dancing All Night
+        </h1><br>
+        <p>
+        </p>
+        <h1>
+            Persona 4 Arena
+        </h1><br>
+        <p>
+        </p>
+        <h2>
+            Personalidade:
+        </h2> <br>
+        <p>
+
+        </p> <br>
+
+        <h2>
+            Perfil:
+        </h2> <br>
+        <h2>
+            Persona 4/Golden
+        </h2> <br>
+        <p>
+        </p>
+        <h2>
+            Persona 4 Arena
+        </h2> <br>
+        <p>
+        </p>
+        <h2>
+            Dancing In Moonlight
+        </h2> <br>
+        <p>
+        </p>
+        <h2>
+            Persona Q: Shadow of Labyrinth
+        </h2> <br>
+        <p>
+        </p>
+        <h2>
+            Persona Q2: New Cinema Labyrinth
+        </h2> <br>
+        <p>
+        </p>
+            <h2>
+                Estatísticas
+            </h2>
+            <table class="arcanos-table" id="arcanosTable">
+                <tr>
+                    <th>Arcano</th>
+                    <th>Nível</th>
+                    <th>HP</th>
+                    <th>SP</th>
+                    <th>Força</th>
+                    <th>Magia</th>
+                    <th>Resistência</th>
+                    <th>Agilidade</th>
+                    <th>Sorte</th>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td>77</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+            </table>
+            
+            <table class="customtable">
+                <tr>
+                    <th>Golpear</th>
+                    <th>Batida</th>
+                    <th>Perfurar</th>
+                    <th>Fogo</th>
+                    <th>Gelo</th>
+                    <th>Eletricista</th>
+                    <th>Vento</th>
+                    <th>Luz</th>
+                    <th>Escuro</th>
+                    <th>Almi</th>
+                </tr>
+                <tr>
+                    <td>-</td>
+                    <td>-</td>
+                    <td>-</td>
+                    <td>-</td>
+                    <td>-</td>
+                    <td>-</td>
+                    <td>-</td>
+                    <td>-</td>
+                    <td>-</td>
+                    <td>-</td>
+                </tr>
+            </table>
+            <table class="customtable">
+                <tr>
+                    <th>Habilidade</th>
+                    <th>Efeito</th>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                </tr>
+            </table>
+            <br>
+            <h2>Citações de batalha</h2><br>
+            <p>Persona 4</p> <br>
+        <div class="persona-container" onclick="toggleTable('Persona 4')">
+            <div class="toggle-button">Mostrar/Esconder Tabela Persona 4</div>
+        </div>
+    
+        <div id="Persona 4-table" class="persona-table">
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li> <br>
+        </div>
+    <script>
+    function toggleTable(id) {
+        var table = document.getElementById(id + '-table');
+        table.style.display = (table.style.display == 'none' || table.style.display == '') ? 'block' : 'none';
+    }
+    </script>
+        <h2>
+            Etimologia:
+        </h2> <br>
+        <li><i></i></li>
+        <li><i></i></li>
+        <li><i></i></li>
+            <h2>
+                Curiosidades:
+            </h2> <br>
+            <li><i></i></li><br><br>
+            <li><i></i></li><br><br>
+            <li><i></i></li><br><br>
+            <li><i></i></li><br><br>
+            <li><i></i></li><br><br>
+            <li><i></i></li><br><br>
+            <li><i></i></li><br><br>
+            <li><i></i></li><br><br>
+            <li><i></i></li><br><br>
+            <li><i></i></li><br><br>
+            <li><i></i></li><br><br>
+            <li><i></i></li><br><br>
+            <li><i></i></li><br><br>
+            <li><i></i></li><br><br>
+            <li><i></i></li><br><br>
+            <li><i></i></li><br><br>
+            <li><i></i></li><br><br>
+            <li><i></i></li><br><br>
+            <li><i></i></li><br><br>
+            <li><i></i></li><br>
+        </section>
+    </main>
+</body>
+</html>
