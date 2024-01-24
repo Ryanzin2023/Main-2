@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<html lang="PT-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="../Personagens_html/persona_3.css">
+    <title>Elizabeth</title>
+</head>
+<body>
+    <main>
+      <section id="tela">
+        <div class="container_flex">
+            <img src="../Fotos_adicionais/Persona_3.webp" alt="Logo" style="margin-left: 320px;">
+            </div>
+        </section>
+        <section id="sobre-tabela">
+            <div id="sobre-tabela">
+                <section id="sobre-tabela2">    
+                    <div id="portrait2">
+                        <img src="../Personagens/Elizabeth_render.webp" alt="Portrait" id="imagemAtual">
+                        <div id="texto" class="texto-sobre-imagem">Visual Persona 3</div>
+                    </div>
+                    <button onclick="mudarFoto()">Mudar Foto</button>
+                    <script>
+                        var fotos = ["../Personagens/Elizabeth_render.webp", "../Personagens/P3RE_Elizabeth.webp", "../Personagens/P4A_Elizabeth_Render.webp"
+                        , "../Personagens/P3DMN_-_Elizabeth.webp", "../Personagens/PQ_Nurse_Elizabeth.webp", "../Personagens/PQ2_Elizabeth_Glow.webp"];
+                        var textos = ["Visual Persona 3 Reload","Visual Persona 4A",
+                            "Visual Persona 3 Dancing In Moonlight", "Visual Persona 3 Q", "Visual Persona 3 Q2", "Visual Persona 3" ];
+                        var fotoAtual = 0;
+                
+                        function mudarFoto() {
+                            var novaFoto = (fotoAtual + 1) % fotos.length;
+                            var img = new Image();
+                            img.onload = function() {
+                            document.getElementById("imagemAtual").src = img.src;
+                            document.getElementById("texto").textContent = textos[fotoAtual];
+                            fotoAtual = novaFoto;
+                        };
+                            img.src = fotos[novaFoto];
+                        }
+                    </script>
+                </section>
+            </div>
+          <h2>
+            Elizabeth
+          </h2> <br>
+          <p>
+            "Seu destino está nas cartas."<br>
+            —Elizabeth, Pessoa 3
+          </p> <br>
+          <h2>
+            Aparições:
+          </h2> <br>
+          <li><i><td><a href="../Jogos/persona_3.html" title="Persona 3" style="color: #4372aa">Persona 3</a> /</td>
+            <td><a href="../Jogos/persona_3_fes.html" title="Persona 3 FES" style="color: #4372aa">FES</a> /</td>
+            <td><a href="../Jogos/persona_3_portable.html" title="Persona 3 Portable" style="color: #4372aa">Portable</a> /</td>
+            <td><a href="../Jogos/persona_3_reload.html" title="Persona 3 Reload" style="color: #4372aa">Reload</a></td>: Personagem não jogável, Velvet Room Assistant, Boss Secreto</i></li>
+              <li><i><td><a href="../Jogos/persona_3_dim.html" title="Persona 3 Dancing In Moonlight" style="color: #4372aa">Persona 3 Dancing In Moonlight</a></td>: Personagem Jogavel</i></li>
+              <li><i><td><a href="../Jogos/persona_5_dis.html" title="Persona 5 Dancing In Starlight" style="color: #4372aa">Persona 5 Dancing In Starlight</a></td>: Parceira</i></li>
+              <li><i><td><a href="../Jogos/persona_4_arena.html" title="Persona 4 Arena" style="color: #4372aa">Persona 4 Arena</a>: personagem jogável, protagonista, chefe final ( Elizabeth Story Route )</td></i></li>
+              <li><i><td><a href="../Jogos/persona_4_arena_ultimax.html" title="Persona 4 Arena Ultimax" style="color: #4372aa">Persona 4 Arena Ultimax</a></td>: personagem jogável, navegador, chefe final</i></li>
+              <li><i><td><a href="../Jogos/personaq.html" title="Persona Q: Shadow of the Labyrinth" style="color: #4372aa">Persona Q: Shadow of the Labyrinth</a></td>: personagem não jogável, chefe opcional, navegador DLC</i></li>
+              <li><i><td><a href="../Jogos/personaq.html" title="Persona Q: Shadow of the Labyrinth - Lado P3" style="color: #4372aa">Persona Q: Shadow of the Labyrinth - Lado P3</a></td>: Personagem Coadjuvante</i></li>
+              <li><i><td><a href="../Jogos/personaq2.html" title="Persona Q2: New Cinema Labyrinth" style="color: #4372aa">Persona Q2: New Cinema Labyrinth</a></td>: personagem não jogável, chefe opcional, navegador DLC</i></li>
+          <h2>
+            Design:
+        </h2> <br>
+        <p>
+Elizabeth tem cabelo curto loiro platinado e olhos dourados. Ela usa um vestido azul que lembra uma 
+roupa de aeromoça com cinco círculos forrados de preto fora de pequenos círculos amarelos, 
+luvas azuis, um chapéu azul tipo atendente, leggings pretas e botas azuis até os joelhos. Elizabeth 
+também é considerada muito bonita, já que Labrys descreve a aparência de Elizabeth como "perfeita" 
+quando a encontra pela primeira vez. Ela carrega o Compêndio Persona com ela. <br><br>
+
+Em Persona Q: Shadows of Labyrinth , enquanto responsável pela enfermaria, ela adota uma versão 
+rosa e branca de sua roupa normal com um boné de enfermeira antiquado. Ela só usará esse traje 
+fora da batalha; quando ela está lutando no grupo, ela usa sua roupa padrão do Velvet Room.<br><br>
+
+Em Persona Q2: New Cinema Labyrinth , ela adota uma versão de sua roupa normal que possui uma 
+coloração semelhante a um filme de cinema. Ela tem um par de óculos 3D no topo da cabeça. O traje é 
+na verdade quase idêntico ao que Motoko Mitsugi usa no Climax Theatre , exceto que as palavras nele 
+dizem “VELVET Climax Theatre” em vez de “SUMARU Climax Theatre”. Ela só usa essa roupa ao lidar com 
+missões; Ao lutar no grupo, ela usa sua roupa padrão do Velvet Room.
+        </p><br>
+        <h2>
+            Personalidade:
+        </h2><br>
+        <p>
+Elizabeth é alegre, curiosa, amigável, boba, bem-humorada, facilmente excitável e divertida. Ela 
+serve Igor e assume a responsabilidade de seu dever na Sala Velvet. As tendências de Elizabeth de 
+agir por impulso e de não levar a sério coisas e situações perigosas muitas vezes resultam em 
+confundir ou mesmo enfurecer (muitas vezes o inimigo) os envolvidos na crise com seu comportamento 
+surpreendentemente frio. No entanto, ela muitas vezes é humoristicamente desrespeitosa com seu irmão 
+Theodore , como dar-lhe comida de cachorro sem seu conhecimento prévio e na série Q , muitas vezes o 
+forçaria a usar roupas estranhas quando ele estava encarregado de um serviço.<br><br>
+
+Seu pedido final com o protagonista de Persona 3 revela que ela se apaixonou por ele, mas parou de 
+forçar o relacionamento deles por medo de esquecer seus deveres como assistente do Velvet Room. 
+Apesar disso, seu amor pelo protagonista se mostra mais uma vez quando ela renuncia ao cargo de 
+atendente e persegue o protagonista, que havia se tornado o Grande Selo , a fim de salvá-lo e 
+libertá-lo.<br><br>
+
+Em  Persona 3: Dancing in Moonlight , é revelado que Elizabeth tem um relacionamento tenso com suas 
+irmãs mais novas e mais velha . Ela descreve Lavenza (particularmente Caroline) como impertinente e 
+Margaret como impetuosa. Quando ela diz que ela e SEES  cairão em "um inferno eterno de sofrimento 
+e humilhação sem fim" se perderem, Junpei comenta que está chocado com o quão cruel Lavenza pode 
+ser.
+        </p><br>
+        <h2>
+            Perfil:
+        </h2> <br>
+        <h2>
+            Persona 3
+        </h2> <br>
+        <p>
+Elizabeth é assistente de Igor , proprietário do Velvet Room. Ela faz sua primeira aparição quando o 
+protagonista desperta em seu subconsciente, visitando a Sala Velvet, onde cumprimenta o protagonista. 
+Enquanto Igor é responsável pelas fusões de Personas, Elizabeth cuida do Compêndio de Personas , 
+que permite ao protagonista acompanhar suas personas fundidas e convocá-las novamente. Elizabeth 
+também oferece várias missões secundárias para a protagonista, desde recompensas até a obtenção de 
+vários objetos da vida diária para ela.<br><br>
+
+À medida que o protagonista completa as missões secundárias , Elizabeth pode recompensar os 
+jogadores com itens raros e itens especiais necessários para fundir diversas personas específicas. 
+Ela também solicita tarefas que envolvem o Tártaro e a recuperação de equipamentos especiais de lá.
+Além disso, Elizabeth também solicita itens do mundo real que só poderiam ser recuperados em dias
+específicos.<br><br>
+
+Se os jogadores decidirem iniciar o segundo ciclo, Elizabeth oferecerá uma missão paralela extra 
+para desafiá-la no topo da masmorra bônus. Ao chegar ao nível final, Elizabeth revela sua frustração 
+por não conseguir descobrir o verdadeiro sentido da vida, e espera que alguém mais forte que ela 
+seja capaz de lhe dar essa resposta. Nos eventos da batalha do protagonista com ela, Elizabeth 
+revela ser uma usuária de Persona assim como a protagonista, também capaz de alternar entre 
+múltiplas Personas no meio da batalha.<br><br>
+
+Como indicado acima, Elizabeth é capaz de entrar na Dark Hour por ser ela mesma uma usuária de 
+Persona, e ao contrário da maioria dos personagens do jogo, ela invoca Personas sem usar um Evoker 
+como SEES ou sentir dor como Takaya .
+        </p><br>
+        <h2>
+            FES
+        </h2> <br>
+        <p>
+            Elizabeth assume um papel maior na versão atualizada do Persona 3 FES . O protagonista 
+            pode namorar Elizabeth, porém, ela não é Social Link . Ao longo dos encontros, o
+            protagonista lhe ensina as culturas do mundo. Em troca, Elizabeth concede ao 
+            protagonista vários itens-chave para convocar várias Personas específicas. À medida 
+            que o protagonista sai com ela, Elizabeth se interessa pelo protagonista, inclusive 
+            pela cultura do mundo exterior. Caso a protagonista conclua seu pedido final de 
+            'namoro', Elizabeth revelará que se apaixonou pelo protagonista. Ela interrompe o 
+            relacionamento ali, entretanto, para não esquecer seus deveres no Velvet Room. No 
+            entanto, antes de sua partida, ela pede ao protagonista em seu quarto para 
+            "acompanhá-la" antes de retornar ao Velvet Room.
+        </p><br>
+        <h2>
+            Portable
+        </h2> <br>
+        <p>
+Como protagonista masculino, ela é forçada a ser assistente de Igor, pois é impossível para o 
+protagonista masculino escolher Theo.<br><br>
+
+Ela ainda pode aparecer como assistente de Igor no Velvet Room no caminho da protagonista 
+feminina se a escolha adequada for feita. Além de seus pedidos habituais, ela também contará ao 
+protagonista quando houver uma pessoa presa dentro do Tártaro, dentro de um determinado intervalo de 
+andares. Ela pode se apaixonar pelo protagonista independentemente do sexo.
+        </p><br>
+        <h2>
+            A resposta
+        </h2> <br>
+        <p>
+            Elizabeth mantém seu papel no epílogo jogável de Persona 3 . Depois que Aigis herda a 
+            habilidade Wild Card do protagonista e o acesso ao Velvet Room, ela conhece Igor e 
+            Elizabeth. Como The Answer proíbe o acesso de Aigis ao Persona Compendium, Elizabeth 
+            só cumprimentaria Aigis sempre que ela visitasse o Velvet Room. No entanto, ao longo 
+            dos eventos de The Answer , Elizabeth tenta animar Aigis de sua dor pela morte do 
+            protagonista. Ao aprender a natureza do Abismo do Tempo , Elizabeth comenta que Aigis 
+            finalmente encontrou sua resposta, e que sua Jornada está prestes a terminar.
+        </p><br>
+        <h2>
+            Persona 4
+        </h2> <br>
+        <p>
+Em Persona 4 é revelado que Elizabeth tem uma irmã mais velha, que se revela ser Margaret , 
+a assistente de Igor em Persona 4 . Através da conversa da protagonista com Margaret, Margaret 
+afirma que está perturbada pela decisão abrupta de Elizabeth de deixar o Velvet Room, que havia 
+saído durante o intervalo de tempo entre The Answer e Persona 4 , e espera trazê-la de volta. 
+Porém, Margaret, que também começa a questionar sua existência, acredita que ela também deve 
+descobrir seu verdadeiro eu, e faz um convite ao protagonista, desafiando-o para uma luta.<br><br>
+
+Se o protagonista aceitar o desafio de Margaret e derrotá-la, o motivo de Elizabeth deixar o Velvet 
+Room seria mais tarde revelado como uma tentativa de libertar a alma do protagonista de Persona 3
+do selo de Nyx . Além disso, parece que Elizabeth e Margaret lutaram uma contra a outra, como 
+Margaret diz: "Que maravilha... Mesmo Elizabeth nunca me encurralou tanto."<br><br>
+
+Em Persona 4 Golden entretanto, sua descrição é mais vaga em comparação com o original. Margaret 
+não menciona informações sobre Elizabeth ser sua irmã, mas ainda chama seu nome quando o HP 
+de Margaret cai até certo ponto.
+        </p><br>
+        <h2>
+            Persona 4 Arena
+        </h2> <br>
+        <p>
+            Elizabeth aparece em Persona 4 Arena , tendo Thanatos como sua Persona. Enquanto continua 
+            sua “jornada”, ela de alguma forma consegue chegar ao Midnight Channel. Depois de 
+            esclarecer Labrys que ela está sob o controle de sua sombra, se reunindo com Aigis e se 
+            encontrando com Yu Narukami e os outros usuários de Persona, ela ganha a Arcana do Tolo ,
+            significando o início de uma nova jornada para ela, especialmente depois de ver o poder de 
+            os vínculos entre os membros da Equipe de Investigação e lembrando também o do SEES . 
+            Ela está profundamente envolvida com as histórias de Yu e Aigis, onde testa suas 
+            habilidades com o Wild Card antes de fortalecer suas resoluções minguantes e permite que 
+            eles prossigam para a Sala de Anúncios. Em troca, ambos servem como personagens-chave na 
+            dela, onde a ajudam a compreender a verdadeira natureza do Wild Card, na esperança de que 
+            algo que possa ajudá-la em sua jornada possa ser encontrado tanto na garota mecânica 
+            quanto no jovem. Ela também é a única chefe na história de Labrys.<br><br>
+        
+            O modo de história de Elizabeth começa com ela destruindo Erebus  com Thanatos, embora ela 
+            lamente que eventualmente seja reformado depois de um ano. Ela então sente vários usuários 
+            Persona reunidos no Midnight Channel, o que chama sua atenção. Ela acha que se investigar 
+            esse fenômeno incomum, poderá encontrar uma maneira de destruir Erebus permanentemente, 
+            permitindo-lhe libertar a alma do protagonista da Persona 3 do Grande Selo.<br><br>
+
+            Ela então se encontra no meio de um estranho torneio, do qual, para sua decepção, ela não 
+            é considerada parte devido ao seu aparecimento repentino. Durante os eventos do jogo, ela 
+            está inicialmente mais interessada em encontrar o General Teddie para se juntar 
+            formalmente ao torneio, em vez de acabar com isso. Ela encontra Labrys no início de sua 
+            jornada e, com pena dela, subconscientemente a lembra da incongruência de sua humanidade, 
+            para que ela possa descobrir a verdade de sua identidade por conta própria. No entanto, 
+            Labrys também a lembrou da última convidada que ela recebeu durante sua estadia no Velvet 
+            Room, que também era outra donzela mecânica, que ela também sentiu estar presente na 
+            escola falsa, para sua alegria e alegria. excitação.<br><br>
+            
+            Elizabeth decide fazer uma visita ao seu convidado, na esperança de encontrar dentro dela 
+            algo crucial para sua jornada. Ela encontra Teddie ao longo do caminho, que lhe conta 
+            sobre seu "Sensei", que de alguma forma a lembrou do convidado que ela está perseguindo. 
+            Embora Elizabeth perceba que mesmo que seja improvável que "Sensei" e seu último convidado 
+            sejam a mesma pessoa, ela acha que eles podem estar ligados um ao outro de alguma forma. 
+            Elizabeth então decide encontrar esse "Sensei", e sua curiosidade por ele também despertou.
+            Ela finalmente alcança seu antigo convidado, que revela ser ninguém menos que Aigis , 
+            confrontando furiosamente o General Teddie no monitor.<br><br>
+            
+            Não muito depois de seu breve reencontro com Aigis, Elizabeth consegue encontrar o "Sensei" 
+            de Teddie, Yu Narukami , defendendo Labrys de sua sombra. No entanto, ela então detecta nele 
+            uma presença distinta que é exatamente igual à de Aigis; Elizabeth percebe que Yu também é 
+            o portador do Wild Card, e é a próxima pessoa depois de Aigis a ser recebida no Velvet Room 
+            e aproveitar seus serviços, tornando-o o sucessor da garota mecânica, confirmando suas 
+            suspeitas e aumentando sua excitação. No entanto, Elizabeth também descobre que, ao 
+            contrário de Aigis, Yu recebeu assistência de Margaret , sua irmã mais velha, já que ela 
+            havia deixado o Velvet Room pouco depois de Aigis terminar seu contrato com o Velvet Room e 
+            antes de Yu assinar o dele.<br><br>
+            
+            Ela desafia os dois protagonistas durante seus encontros com eles na esperança de encontrar 
+            sua resposta, dizendo-lhes para lutarem contra ela como se pretendessem matá-la. Apesar de 
+            terem ficado significativamente e formidavelmente mais fortes desde as provações anteriores, 
+            tanto Aigis quanto Yu não conseguiram derrotar Elizabeth. Embora impressionada com suas 
+            habilidades, ela percebe que sua destreza em combate não era realmente o que ela procurava e 
+            lamenta que talvez nunca encontre sua resposta. Yu, no entanto, está determinado a mostrar 
+            a ela o verdadeiro poder do Wild Card. Depois que o resto da Equipe de Investigação chega 
+            para apoiá-lo após vê-lo ferido, um imenso poder que emana do grupo começa a dominar 
+            Elizabeth, fazendo-a recuar e perder o equilíbrio. Porém, Aigis, que estava observando de 
+            longe o tempo todo, finalmente decide intervir neste momento. Aigis pega a queda de 
+            Elizabeth, Aigis então gentilmente explica a uma Elizabeth perplexa que na verdade é o 
+            poder dos laços da Equipe de Investigação, um poder com o qual ela está muito familiarizada, 
+            e que não pertencia apenas a Yu, mas sim à equipe como um todo.<br><br>
+            
+            Depois de lembrar como Aigis e o protagonista de Persona 3 também realizaram feitos 
+            incríveis através de seus laços e relembrar uma conversa anterior com Margaret, ela 
+            finalmente percebe que a verdadeira natureza do Wild Card é um poder que depende não 
+            apenas da força de seu portador, mas antes, nos laços que estabeleceram com os outros. 
+            Elizabeth conclui que ela não deveria apenas estudar Yu ou Aigis sozinho, mas também as 
+            pessoas com quem eles formaram laços. Ela agradece brevemente a ambos os convidados do 
+            Velvet Room pela ajuda e alegremente se despede de todos antes de partir do Midnight Channel 
+            para continuar sua jornada, deixando para trás uma equipe de investigação irritada, mas 
+            confusa. Aigis então acalma a Equipe de Investigação e diz a todos que seu líder está apenas 
+            exausto e não corre perigo. O grupo percebe que é improvável que Elizabeth seja a culpada 
+            do caso e eles a deixam em paz.<br><br>
+            
+            No inconsciente coletivo, enquanto Elizabeth contempla o que aprendeu com os dois heróis, 
+            ela percebe que sozinha nunca será capaz de alcançar o milagre que procura, mas se de alguma 
+            forma ela forjar seus próprios laços, então eles podem ser capaz de lançar alguma luz sobre 
+            sua busca. Elizabeth também descobre que se deseja alcançar algo tão imenso, terá que ser 
+            tão decidida quanto Aigis, Yu e seu antigo convidado. Após essas revelações, ela finalmente 
+            ganha sua própria determinação, permitindo-lhe ganhar sua própria Arcana Tola , significando 
+            o início de sua própria jornada, na esperança de que um dia ela seja capaz de encontrar 
+            seus dois predecessores mais uma vez em algum momento de sua jornada.<br><br>
+            
+            É revelado no modo história de Aigis que o relacionamento de Elizabeth com ela é o mesmo de 
+            Yu e Margaret. Elizabeth é altamente protetora com Aigis e está preocupada com seu bem-estar, 
+            embora ela também não demonstre isso a princípio. Assim como Margaret, Elizabeth também fará 
+            de tudo para garantir que seu convidado não seja desviado do caminho certo. Ela também emprega 
+            os mesmos métodos que Margaret usou com Yu sempre que Aigis também está prestes a ceder às 
+            ilusões e enganos que o inimigo a enfrentou. No entanto, uma diferença fundamental entre os 
+            seus relacionamentos é como eles interagem em circunstâncias normais; ao contrário de Margaret, 
+            que trata Yu de maneira profissional e educada, mas com um ar de autoridade, Elizabeth é boba, 
+            alegre e bastante casual com Aigis, tratando-a como uma velha amiga em vez de uma convidada do 
+            Velvet Room.
+        </p><br>
+        <h2>
+            Persona 4 Arena Ultimax:
+        </h2><br>
+        <p>
+Elizabeth encontra Rise Kujikawa no P4 Story Mode, onde a princípio se diverte com ela até perceber 
+sua falta de determinação e decide ir embora. Ela revela que está simplesmente observando os 
+acontecimentos para ver a grande batalha entre os dois grandes potenciais da humanidade: a Solidão 
+e os Vínculos. Ela fica impressionada com Rise quando ela ganha determinação para lutar e vai 
+embora, já tendo interferido mais do que pretendia.<br><br>
+
+Elizabeth aparece mais tarde no final de ambos os modos de história, onde parabeniza Yu Narukami e 
+Labrys por derrotar outro avatar da morte. Eles pedem a ela para transportar todos para um local 
+seguro devido ao retorno da cidade ao normal e ao perigo do reino em colapso, levando-a a enviá-los 
+para o Canal da Meia-Noite . Sua última aparição é no final verdadeiro, onde ela não quer perder a 
+chance de ver a batalha entre Sho Minazuki e Yu Narukami. Margaret tenta pedir a ela para voltar ao 
+Velvet Room enquanto Theodore está preocupado com ela, com Elizabeth ficando surpresa ao saber que 
+ele estava tentando encontrá-la. Ela pede que ela conte ao irmão incompetente que sua jornada apenas 
+começou enquanto ela foge rapidamente. Margaret acredita que um dia provavelmente retornará ao 
+Velvet Room, mas como visitante.
+        </p><br>
+        <h2>
+            Persona Q: Shadow of Labyrinth
+        </h2> <br>
+        <p>
+Elizabeth, junto com Nanako , Marie e seus irmãos , também está disponível como DLC Navigator por 
+US$ 3. Os DLC Navigators não possuem habilidades adicionais, mas podem substituir a voz de 
+Fuuka ou Rise para fornecer suporte vocal, selecionando-os na seção "Suporte" do menu "Party".<br><br>
+
+Elizabeth afirma durante um passeio após entrar na Noite 2 da Exposição do Orgulho de Inaba que ela 
+sente que fica mais fraca a cada momento que Igor está ausente do Velvet Room. Mais tarde, após 
+chegar à Noite de Exibição do Orgulho de Inaba 4 e completar o pedido extra , Hora de um Julgamento 
+, ela afirma que aqueles que se reúnem na Sala Velvet estão destinados a continuar a busca, e que 
+ela também está em busca de sua identidade, e que o P3 herói pode ser aquele que lhe fornece essa 
+resposta.<br><br>
+
+Depois de completar o pedido de Defeat The Reaper , ela afirma que precisa trabalhar mais para poder
+derrotar inimigos como The Reaper com as próprias mãos. Ela afirma que esteve muito perto de 
+acabar com ele quando lutou com suas Personas e habilidades seladas, além de estar limitada por 
+magia, força e agilidade, e que ela poderia ter derrotado se estivesse usando o acessório adequado, 
+referindo-se a o Orbe Onipotente, mas isso seria ceder à preguiça.
+        </p><br>
+        <h2>
+            Persona Q2: New Cinema Labyrinth
+        </h2> <br>
+        <p>
+Elizabeth administra a bilheteria do Cinema do jogo e gerencia as submissões do jogo. As bilheterias
+distribuem ingressos, que na verdade são submissões. Para desbloquear seus serviços, o grupo deve 
+encontrar Yosukesaurus e derrotar as Sombras que o atacam. Depois disso , Futaba Sakura forçará o 
+grupo a recuar enquanto a máquina de venda automática de ingressos estiver brilhando. Ao voltar ao 
+Cinema, Elizabeth vestirá uma versão alterada do traje de Motoko Mitsugi e desbloqueará o serviço. 
+Elizabeth é divertidamente cruel com Theodore, assim como na prequel do jogo, e Caroline e Justine a
+respeitam como uma irmã.<br><br>
+
+Ela solicitará a batalha contra o grupo após um pedido para caçar uma sombra em Hikari após sua 
+conclusão. Derrotá-la é necessário para despertar as Personas definitivas do grupo , nas quais os 
+quatro protagonistas despertarão as suas instantaneamente e os demais que conseguirem uma irão 
+despertá-los no nível 55 ou superior.
+        </p><br>
+            <h2>Citações de batalha</h2><br>
+            <p>Persona 3</p> <br>
+        <div class="persona-container" onclick="toggleTable('Persona 3')">
+            <div class="toggle-button">Mostrar/Esconder Tabela Persona 3</div>
+        </div>
+    
+        <div id="Persona 3-table" class="persona-table">
+    <li>Eu ganho a vida como atendente de elevador, mas... conheço várias maneiras eficazes de infligir dor... Não se preocupe, não sou tão frágil quanto pareço. Tente me matar, se puder... (Abertura da batalha)</li>
+    <li>Magnífico! Seu poder é tão impressionante quanto eu esperava... Mas a cortina acaba de subir. Mostre-me seu melhor desempenho! (75% PV)</li>
+    <li>Maravilhoso... Você exerce tanto poder. A performance está em andamento. Vou lhe dar algo para lembrar! (50% PV)</li>
+    <li>Agora... apresento-lhes o Grande Final! (25% PV)</li>
+    <li>Seu destino está nas cartas. (Lançando um feitiço)</li>
+    <li>Eu escolhi. (Lançando um feitiço)</li>
+    <li>Persona! (Lançando um feitiço)</li>
+    <li>Um sinal do meu agradecimento. (Lançando um feitiço e perfurando o ataque)</li>
+    <li>Você pode suportar isso? (Ataque perfurante)</li>
+    <li>Preparar. (Ataque de corte e ataque de perfuração)</li>
+    <li>Peço desculpas antecipadamente. (Ataque de barra)</li>
+    <li>Hmph! (Ataque de Slash)</li>
+    <li>..Ha! (Ataque de Slash)</li>
+    <li>Isso é o melhor que você pode fazer? (Evitando um ataque)</li>
+    <li>Oh, meu Deus... (Evitando um ataque)</li>
+    <li>Não! (Levando dano)</li>
+    <li>Eca! (Levando dano)</li>
+    <li>Devo avisá-lo, não sou estranho a esse tipo de violência</li>
+    <li>*risos* Parece que eu estava certo, seu espírito é notável</li>
+    <li>Bom trabalho. Seu poder é realmente excelente</li><br>
+        </div>
+    <script>
+    function toggleTable(id) {
+        var table = document.getElementById(id + '-table');
+        table.style.display = (table.style.display == 'none' || table.style.display == '') ? 'block' : 'none';
+    }
+    </script>
+            <h2>
+                Curiosidades:
+            </h2> <br>
+            <li><i>Em Persona 3 , Elizabeth invoca e usa habilidades de Persona em batalha golpeando uma carta de Tarô flutuante, um método que mais tarde seria compartilhado pelos usuários de Persona de Persona 4 .</i></li><br><br>
+            <li><i>Mesmo sendo do Persona 3 , " Mass Destruction " não funciona em partidas espelhadas no Persona 4 Arena . Em vez disso, "A Batalha pelas Almas de Todos" é o seu tema.</i></li><br><br>
+            <li><i>Também em Persona 4 Arena , ela, junto com Naoto , são os únicos personagens que possuem uso de One-Hit KO fora do sistema universal Instant Kill.</i></li><br><br>
+            <li><i>"The Battle For Everyone's Souls" foi remixado na sequência .</i></li><br><br>
+            <li><i>Ela pode receber o nome de Elizabeth Lavenza, uma personagem do romance de Frankenstein .</i></li><br><br>
+            <li><i>Embora Margaret diga que ela é na verdade mais forte que Elizabeth, Margaret tem menos HP que Elizabeth e Theo.</i></li><br><br>
+            <li><i>Em Persona 5 , quando  Sadayo Kawakami  pergunta ao protagonista como se chama uma mulher cujo charme pode levar os homens à ruína, uma das respostas possíveis é "Elizabeth", que é uma referência aos pedidos perigosos que ela faz ao protagonista de  Persona 3. .</i></li><br><br>
+            <li><i>A roupa de Elizabeth em Persona Q2: New Cinema Labyrinth é baseada na usada por Motoko Mitsugi , a apresentadora do Climax Theatre na versão PSP de Persona 2: Innocent Sin .</i></li><br><br>
+            <li><i>O tom de voz de Elizabeth é significativamente diferente nas versões japonesas e inglesas dos jogos em que ela aparece; na dublagem em inglês, sua voz é aguda, enquanto na versão japonesa, sua voz é mais madura e grave.</i></li><br><br>
+            <li><i>Em Persona 3 Reload, Tara Platt repetirá seu papel como Elizabeth</i></li><br>
+        </section>
+    </main>
+</body>
+</html>

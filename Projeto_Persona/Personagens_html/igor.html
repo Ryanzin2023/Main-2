@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="PT-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="../Personagens_html/persona_3.css">
+    <title>Igor</title>
+</head>
+<body>
+    <main>
+      <section id="tela">
+        <div class="container_flex">
+            <img src="../Fotos_adicionais/Persona_3.webp" alt="Logo" style="margin-left: 320px;">
+            </div>
+        </section>
+        <section id="sobre-tabela">
+            <div id="sobre-tabela">
+                <section id="sobre-tabela2">    
+                    <div id="portrait2">
+                        <img src="../Personagens/Igor_P1.webp" alt="Portrait" id="imagemAtual">
+                        <div id="texto" class="texto-sobre-imagem">Visual Persona 1</div>
+                    </div>
+                    <button onclick="mudarFoto()">Mudar Foto</button>
+                    <script>
+                        var fotos = ["../Personagens/Igor_P1.webp", "../Personagens/IgorP2IS.webp", "../Personagens/Igor_P3P.webp"
+                        , "../Personagens/Igor_29.webp", "../Personagens/IgorPersona4.webp", "../Personagens/Igor_P5.webp"];
+                        var textos = ["Visual Persona 2", "Visual Persona 3","Visual Persona 3 Reload",
+                        "Visual Persona 4",
+                            "Visual Persona 5","Visual Persona 1" ];
+                        var fotoAtual = 0;
+                
+                        function mudarFoto() {
+                            var novaFoto = (fotoAtual + 1) % fotos.length;
+                            var img = new Image();
+                            img.onload = function() {
+                            document.getElementById("imagemAtual").src = img.src;
+                            document.getElementById("texto").textContent = textos[fotoAtual];
+                            fotoAtual = novaFoto;
+                        };
+                            img.src = fotos[novaFoto];
+                        }
+                    </script>
+                </section>
+            </div>
+          <h2>
+            Igor
+          </h2> <br>
+          <p>
+            "Bem-vindo a Velvet Room ."
+          </p> <br>
+          <h2>
+            Aparições:
+          </h2> <br>
+        <li><i><td><a href="../Jogos/persona_1.html" title="Persona 1" style="color: #4372aa">Persona 1</a></td></i></li>
+        <li><i><td><a href="../Jogos/persona_2_is.html" title="Persona 2 Pecado Inocente" style="color: #4372aa">Persona 2 Pecado Inocente</a></td></i></li>
+        <li><i><td><a href="../Jogos/persona_2_ep.html" title="Persona 2 Castigo Eterno" style="color: #4372aa">Persona 2 Castigo Eterno</a></td></i></li>
+        <li><i><td><a href="../Jogos/persona_3.html" title="Persona 3" style="color: #4372aa">Persona 3</a> /</td>
+        <td><a href="../Jogos/persona_3_fes.html" title="Persona 3 FES" style="color: #4372aa">FES</a> /</td>
+        <td><a href="../Jogos/persona_3_portable.html" title="Persona 3 Portable" style="color: #4372aa">Portable</a> /</td>
+        <td><a href="../Jogos/persona_3_reload.html" title="Persona 3 Reload" style="color: #4372aa">Reload</a></td></i></li>
+        <li><i><td><a href="../Jogos/persona_4.html" title="Persona 4" style="color: #4372aa">Persona 4</a> /</td>
+        <td><a href="../Jogos/persona_4_golden.html" title="Persona 4 Golden" style="color: #4372aa">Persona 4 Golden</a></td></i></li>
+        <li><i><td><a href="../Jogos/persona_4_arena.html" title="Persona 4 Arena" style="color: #4372aa">Persona 4 Arena</a></td></i></li>
+        <li><i><td><a href="../Jogos/persona_4_arena_ultimax.html" title="Persona 4 Arena Ultimax" style="color: #4372aa">Persona 4 Arena Ultimax</a></td></i></li>
+        <li><i><td><a href="../Jogos/persona_5.html" title="Persona 5" style="color: #4372aa">Persona 5</a></td>
+        <td><a href="../Jogos/persona_5_r.html" title="Persona 5 Royal" style="color: #4372aa">Persona 5 Royal</a></td></i></li><br>
+            <h2>
+            Design:
+        </h2> <br>
+        <p>
+Igor tem a aparência de um velho bizarro, com nariz comprido, orelhas pontudas e olhos esbugalhados 
+e injetados. Ele veste terno preto, luvas brancas, meias brancas ou pretas e sapatos pretos. 
+Ele parece ser bastante alto quando está totalmente em pé e é quase esqueleticamente magro.<br><br>
+
+Em Persona -trinity soul- , ele usa uma túnica preta com uma máscara de comédia teatral.
+        </p><br>
+        <h2>
+            Personalidade:
+        </h2> <br>
+        <p>
+Ao mesmo tempo em que se apresenta como um mero servo de Filemom , Igor parece ser muito mais do que 
+isso. Ele era originalmente um boneco feito à mão por uma pessoa misteriosa, que ganhou vida graças 
+a um ritual mágico. Por causa disso, Igor pondera se ele é apenas um boneco ou talvez até mesmo um 
+humano. Assim, ele demonstra interesse pelo ser humano. Mais adiante, ele cria Margaret , Elizabeth 
+, Theodore e Lavenza , como assistentes que perseguem questões semelhantes na vida para auxiliá-lo 
+na Sala Velvet.<br><br>
+
+Em todos os jogos Persona até agora, Igor desempenhou o papel de Proprietário da Velvet Room, um 
+espaço entre o sonho e a realidade, a mente e a matéria. Como proprietário, Igor fornece informações 
+aos protagonistas sobre seus poderes, laços emocionais e possíveis perigos que os aguardam em sua 
+jornada. Igor também fornece os serviços vitais de fusão de Personas, que permite a criação de 
+Personas muito mais poderosas a partir de outras pré-existentes e a utilização do Compêndio de 
+Personas, que permite que Personas previamente criadas e/ou adquiridas sejam recuperadas 
+posteriormente.<br><br>
+
+Apesar de sua aparência bastante marcante, Igor apresenta uma atitude calma e cortês ao falar com os 
+protagonistas. Embora o bem-estar dos protagonistas seja importante para ele, ele reserva a 
+divulgação de certas informações para pontos mais “oportunos” da história. Durante as conversas 
+sobre as ações dos protagonistas, Igor opta por comentários bastante enigmáticos que tendem a 
+prenunciar eventos futuros e possivelmente o resultado da história como um todo, independentemente 
+de esses comentários serem ou não compreendidos no momento (o que pode ser sua intenção) . Isso 
+sugere que Igor pode ter quase onisciência, embora, como ele mesmo admite, haja coisas que nem ele 
+pode prever. Além disso, ele também assume uma postura neutra e quase nunca interfere diretamente 
+ou dá avisos óbvios a qualquer pessoa ou coisa com quem tenha contrato.
+        </p> <br>
+        <h2>
+            Perfil:
+        </h2> <br>
+        <h2>
+            Persona 1
+        </h2> <br>
+        <p>
+Igor é o misterioso proprietário do Velvet Room . Em Persona , Igor se autodenomina "um servo de 
+Filemom ". Ele é sempre encontrado no The Velvet Room entre a consciência e a inconsciência, ao 
+lado de Nameless e Belladonna . Ele usa um telefone feito de osso para chamar Personas das 
+profundezas da alma, que ele usa em um coldre de cinto.
+        </p><br>
+        <h2>
+            Persona 2
+        </h2> <br>
+        <p>
+Igor permanece praticamente inalterado. Ele ainda é um servo de Filemon e lida com a convocação de 
+Persona da mesma maneira. Nameless e Belladonna retornam, só que desta vez eles são acompanhados 
+pelo Demon Painter . Fora da convocação e demissão de Persona, Igor cuida por um breve período de 
+Ulala Serizawa após seu ataque de insanidade do Coringa , alertando-a para ter cuidado com suas 
+emoções para que o poder do Coringa não retorne.
+        </p><br>
+        <h2>
+            Persona 3
+        </h2> <br>
+        <p>
+Igor não é mais visto com o telefone, mas ainda faz a fusão da Persona por meio de cartões. Além 
+disso, Nameless, Belladonna e Demon Painter estão ausentes. Em vez disso, Igor é acompanhado por 
+uma assistente chamada Elizabeth . Apenas o protagonista pode entrar no Velvet Room, e ele o faz
+pela primeira vez em sonho. Nenhum dos outros usuários do Persona pode ver a entrada do Velvet Room. 
+O protagonista assina contrato com Pharos e Igor no início do jogo concordando em assumir a 
+responsabilidade por seus atos. Filemom nunca é mencionado.
+        </p><br>
+        <h2>
+            Portable
+        </h2> <br>
+        <p>
+O papel de Igor permanece o mesmo no remake portátil de Persona 3 . Os jogadores que escolherem a 
+rota feminina podem optar por trocar Elizabeth por Theodore quando Igor perguntar à protagonista 
+qual atendente eles veem.
+        </p><br>
+        <h2>
+            A Resposta
+        </h2> <br>
+        <p>
+Igor dá uma chave para Aigis e permite que ela acesse os serviços dele e 
+de Elizabeth depois que ela despertar para o poder do curinga.<br><br>
+
+Ele demonstra uma pequena gentileza para com Aigis, comentando que ambos são seres semelhantes, 
+referenciando suas origens como um boneco que recebeu vida de Filemom.<br><br>
+
+Após SEES e Metis saírem do time skip, todos foram transportados para a Velvet Room e recebidos por 
+Igor, que explica que Metis faz parte da personalidade de Aigis, devido ao seu desejo de viver como 
+uma máquina após a morte do protagonista. Aigis então desliga para relembrar suas memórias, fazendo 
+com que todos adormeçam também e acordem. Ao ver o corpo sem vida de Aigis (seus circuitos de 
+sinapse foram queimados), Ken Amada se lembra do Velvet Room e do que aconteceu lá, lembrando a 
+todos disso.
+        </p><br>
+        <h2>
+            Persona 4
+        </h2> <br>
+        <p>
+Igor é visto com uma nova assistente chamada Margaret . Igor tem neste jogo o mesmo papel que em 
+Persona 3 guiando o protagonista . Em Persona 4: Golden , os dois também são acompanhados por Marie , 
+que atua como aprendiz. Como o Velvet Room virou uma Limousine, Igor fará comentários se a 
+Limousine parou ou voltou a se mover, simbolizando retrocessos e retomadas no objetivo da Equipe de 
+Investigação de solucionar os casos de assassinato em Inaba .
+        </p><br>
+        <h2>
+            Persona Q - Shadow of Labyrinth
+        </h2> <br>
+        <p>
+Igor é citado por Elizabeth, que afirma ter saído do Velvet Room no dia em que o protagonista entra. 
+Seu desaparecimento faz com que a sala fique instável e Theodore fica encarregado de ajudar sua irmã 
+enquanto ele estiver fora.<br><br>
+
+Durante um passeio após entrar na Noite 2 da Exposição do Orgulho de Inaba , Elizabeth menciona que 
+ela se sente mais fraca a cada momento enquanto Igor está ausente do Velvet Room.
+        </p><br>
+        <h2>
+            Persona 5
+        </h2> <br>
+        <p>
+"Trickster... Bem-vindo ao meu Quarto Velvet ."<br>
+—O Falso Igor, para o protagonista, Persona 5
+Um período de tempo desconhecido antes dos eventos de Persona 5 , Igor, o Velvet Room e um novo 
+assistente, Lavenza, foram atacados por um ser chamado Yaldabaoth . Yaldabaoth se afirmou na Sala 
+de Veludo dividindo Lavenza em Vigilantes gêmeos, Caroline e Justine, corrompendo a Sala de Veludo 
+em uma prisão e assumindo a identidade de Igor. Ele também mudou a localização da sala para as 
+Profundezas das Lembranças , como cela de quarentena do protagonista .
+
+O falso Igor aparece pela primeira vez logo após o protagonista chegar ao curry e café Café Leblanc 
+durante o sono, recebendo-o em seu Velvet Room, com os gêmeos contando ao protagonista que ele ainda 
+está dormindo no mundo real. Igor o cumprimenta, explicando que o Salão Velvet é um lugar que existe 
+entre o sonho e a realidade, e só é acessível a quem, de alguma forma, fez contrato. Ele então 
+explica que trouxe o protagonista até aqui para discutir um assunto importante que afetará sua vida.
+Ele também expressa surpresa com o estado do Velvet Room, mencionando que sua forma representa o
+estado do coração do hóspede. Igor também se refere ao protagonista como um “Prisioneiro do 
+Destino”, e essa “ruína” o aguarda no futuro.<br><br>
+
+Igor informa que existe uma forma de evitar essa destruição, afirmando que ele deve ser “reabilitado 
+para a liberdade”. Ele também pergunta ao protagonista se ele está pronto para lutar contra a 
+“distorção do mundo”. Após o protagonista dar sua resposta, ele diz que observará o processo de sua 
+“reabilitação”. Ele então apresenta suas mais novas atendentes: Caroline e Justine, suas guardas 
+prisionais. Caroline diz a ele que lutar é inútil, enquanto Justine informa que, embora sejam seus 
+guardiões, também são seus “colaboradores”. Igor afirma que explicará a importância dos gêmeos, em 
+outro momento, pois o amanhecer já se aproxima no mundo real.<br><br>
+
+Igor atua como o fundador do sistema Confidant para auxiliar o protagonista em sua “reabilitação”. 
+Em particular, ao contrário dos episódios anteriores, onde ele nunca forma um Social Link por conta 
+própria, ele ocupa o lugar habitual do atual grupo de usuários do Persona como o próprio Fool Arcana 
+Confidant. Seu Confidant permite ao protagonista se envolver em negociações com demônios, bônus de 
+experiência para fusões, uso da habilidade Terceiro Olho , além de aumentar sua capacidade de 
+estoque de Persona. Durante o Confidant de Força, quando os Guardiões Gêmeos começarem a questionar 
+os pedidos de fusão que devem dar ao Protagonista, Igor perguntará se há algo errado, o que eles 
+negam.<br><br>
+
+Antes do prazo para mudar o coração de Kunikazu Okumura , Igor alude a Goro Akechi destruindo sua 
+sombra e ao desligamento mental resultante no futuro, alertando-o de que o ponto mais alto pode 
+preceder uma queda. Fiel à sua palavra, durante o dia seguinte, a taxa de aprovação da pesquisa do 
+site Phan aumenta duas vezes quase instantaneamente depois que ele termina seu discurso, pegando os 
+Ladrões Fantasmas desprevenidos em um assalto que levou à morte de Okumura. Ele então avisa o 
+protagonista que “aconteceu uma contingência” e sua reabilitação pode não ser realizada, chamando-a 
+de “situação inesperada”. A popularidade dos Phantom Thieves cai depois, com comentários negativos 
+chegando no dia seguinte. Isto implica que a cognição do público estava sendo influenciada por 
+Yaldabaoth, com níveis crescentes de severidade.<br><br>
+
+Durante a masmorra final do jogo, é revelado que o Igor protagonista que esteve interagindo com toda 
+a história é na verdade o Santo Graal , também conhecido como Yaldabaoth , o verdadeiro Mestre das 
+Lembranças que manipula o Público em Geral. Yaldabaoth aprisionou Igor em Mementos e assumiu a 
+aparência de Igor para testar a humanidade para ver se o protagonista os guia para fora da ruína ou 
+se Goro Akechi destrói a ordem social atual e recria uma nova, embora ele manipule descaradamente o 
+resultado para que só ele triunfe. sobre a humanidade. Para esconder ainda mais sua identidade, ele 
+também dividiu Lavenza em guardas gêmeos, fazendo com que ambos perdessem memórias de seu baile de 
+máscaras. Depois que Yaldabaoth manipula as massas fazendo-as acreditar que os Ladrões Fantasmas 
+não existem, ele funde Mementos com o mundo real, fazendo com que a cognição manipulada de todos 
+faça com que os Ladrões Fantasmas realmente deixem de existir. De volta ao Velvet Room, Igor 
+informa ao protagonista que eles não conseguiram mudar o coração das pessoas e que o mundo está 
+destinado à ruína. No entanto, o protagonista restaura os Guardiões Gêmeos de volta à sua forma 
+original, Lavenza, e expõe a identidade de “Igor”. Destemido, o impostor afirma que o “jogo” não 
+terminou e, em vez disso, revela a sua verdadeira natureza enquanto flutua e a sua voz muda para 
+corresponder completamente à do Santo Graal. Depois de não conseguir convencer o protagonista a 
+ainda servi-lo, ele declara que toda a humanidade tem a mente fraca e declara sua intenção de 
+eliminá-los todos antes de partir com uma risada sinistra. <br><br>
+
+Depois que Yaldabaoth sai para completar seu plano, o verdadeiro Igor reaparece na Sala Velvet e 
+cumprimenta formalmente o protagonista pela primeira vez. Apesar do fato de que a cognição das 
+massas nega a existência dos Ladrões Fantasmas, Igor revela que os Ladrões Fantasmas foram meramente 
+mantidos em celas especiais dentro da Sala Veludo, pois "este lugar fica entre o sonho e a 
+realidade, a mente e a matéria", e o encoraja a persegui-los. O protagonista conversa com seus 
+companheiros ladrões e os estimula a voltar à ação. O último ladrão, Morgana , não foi encontrado 
+em lugar nenhum, ao que Igor revela que Morgana é uma existência especial que ele criou como um 
+último esforço para guiar o protagonista em sua jornada antes de ser capturado. Igor incumbe os 
+Ladrões Fantasmas de um assalto final; derrubar Yaldabaoth. Depois que Satanael destrói Yaldabaoth 
+com a Sinful Shell , o mestre mortalmente ferido de Mementos admite com tristeza que Igor estava 
+certo sobre a humanidade antes de cair no esquecimento quando sua forma física retorna à sua forma 
+original do Santo Graal. Na vitória da batalha, Igor parabeniza o protagonista por superar uma 
+provação perigosa e o chama de convidado excepcional antes que o Velvet Room desapareça, tendo 
+cumprido seu dever na jornada do protagonista.
+        </p><br>
+        <h2>
+            Persona 5 Royal
+        </h2> <br>
+        <p>
+Depois de lutar contra um Cendrillon furioso , Igor e Lavenza aparecem para o protagonista. 
+Lavenza explica que o quarto tem o mesmo visual porque o protagonista ainda se sente preso. 
+Durante o terceiro semestre, os verdadeiros Igor e Lavenza continuam auxiliando o protagonista nos 
+procedimentos de fusão.
+        </p><br>
+            <h2>
+                Curiosidades:
+            </h2> <br>
+            <li><i>O dublador japonês de Igor, Isamu Tanonaka , era mais conhecido por sua dublagem de Medama Oyaji (Eyeball Father) na série de anime GeGeGe no Kitaro . A escolha do dublador de Igor pode estar relacionada à idade e ao globo ocular saliente do personagem. Tanonaka morreu aos 77 anos em 13 de janeiro de 2010, de ataque cardíaco. [1] . Por muito tempo, em vez de aposentar o personagem ou reformulá-lo após a morte de Tanonaka, a futura mídia Persona usaria gravações arquivadas de sua voz para Igor. Persona 4 The Animation , Arena , Golden e Arena Ultimax reutilizaram suas falas do Persona 4 original , a série Persona 3 The Movie reutilizou suas falas de Persona 3 , e Persona 5 , The Animation e Royal reutilizaram uma mistura de clipes de voz de ambos Persona 3 e 4 .</i></li><br><br>
+            <li><i>A equipe japonesa aparece em Persona 4 The Animation e Persona 5 o lista como um "elenco especial" e "atuação especial" para Igor, respectivamente.</i></li><br><br>
+            <li><i>Embora Dan Woren, o icônico dublador inglês de Igor, também tenha visto seus clipes de voz reutilizados (ou seja, em Persona 4 Arena ), ele seria finalmente reformulado após Persona 4 Golden . Novas falas para Igor em Persona 4 Arena Ultimax foram fornecidas por Vic Mignogna (que também dublou Junpei Iori ), enquanto Persona 5 tem Igor dublado por Kirk Thornton (que também dublou o Diretor da SIU ).</i></li><br><br>
+            <li><i>Outro dublador japonês que interpretou Igor foi Takeshi Aono no Drama CD Persona 2: Innocent Sin ~ The Erros of Their Youth . No entanto, em maio de 2010, Aono foi hospitalizado devido a um ataque cardíaco e derrame. Ele finalmente faleceu em 9 de abril de 2012.</i></li><br><br>
+            <li><i>O nome de Igor, junto com Margaret, Elizabeth, Theodore, Lavenza, Caroline e Justine pode vir de Frankenstein , embora Igor tenha sido uma adição posterior e não tenha aparecido no romance original de Mary Shelley.</i></li><br><br>
+            <li><i>Como dito acima, Igor funciona como o Confidente Tolo do protagonista em Persona 5 . A Arcana do Tolo é geralmente associada ao partido do protagonista, sendo exemplos o SEES da Persona 3 e a Equipe de Investigação da Persona 4 . Igor também nunca forma um Social Link em jogos anteriores, em vez disso mantém uma postura neutra, sugerindo ainda que o Igor na maior parte da Persona 5 é falso e está manipulando os Phantom Thieves para seu próprio uso.</i></li><br><br>
+            <li><i>Mesmo que o Confidant tenha sido forjado com o Fake Igor/Yaldabaoth, o jogo continua tratando Igor como se ele e o protagonista tivessem forjado um vínculo.</i></li><br><br>
+            <li><i>De acordo com o guia Persona World , todos os visitantes e convidados do Velvet Room ficam atentos e inicialmente ficam surpresos com o nariz excessivamente comprido de Igor. No entanto, nenhum deles se atreve a mencionar isso.</i></li><br><br>
+            <li><i>Segundo Lavenza, o protagonista de Persona 5 pode ser a primeira pessoa na história a salvar Igor. Igor tem um recorte de retrato na Persona 5 . No entanto, não é usado pelo Fake Igor/Yaldabaoth, mas apenas pelo verdadeiro Igor perto do final do jogo.</i></li><br><br>
+            <li><i>Embora Igor não apareça em Persona 4: Dancing All Night , Persona 3: Dancing in Moonlight e Persona 5: Dancing in Starlight , os jogos possuem máscaras de Igor que podem ser equipadas nos personagens.</i></li><br><br>
+            <li><i>Nos arquivos do jogo Persona 5 , existem diálogos não utilizados e uma cena com Igor ao iniciar Confidants. Em vez de avançar rapidamente para o interrogatório de Sae , Igor aparecia atrás do Confidente e dizia uma breve frase a respeito dele ou dela. A cena que mostra isso é ao iniciar o Confidant de Yuuki Mishima .</i></li><br><br>
+            <li><i>Na dublagem inglesa de Persona 5 The Animation , enquanto David Lodge reprisa seu papel como o falso Igor, o filtro que foi aplicado em sua voz no jogo não foi aplicado no anime, fazendo com que Igor soasse diferente do jogo.</i></li><br>
+        </section>
+    </main>
+</body>
+</html>
