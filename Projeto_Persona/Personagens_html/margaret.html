@@ -1,0 +1,469 @@
+<!DOCTYPE html>
+<html lang="PT-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="../Personagens_html/persona_4.css">
+    <title>Margaret</title>
+</head>
+<body>
+    <main>
+      <section id="tela">
+        <div class="container_flex">
+            <img src="../Fotos_adicionais/Persona_4.png" alt="Logo" style="margin-left: 460px;" width="260px">
+            </div>
+        </section>
+        <section id="sobre-tabela">
+            <div id="sobre-tabela">
+                <section id="sobre-tabela2">    
+                    <div id="portrait2">
+                        <img src="../Personagens/Margaret_Render.webp" alt="Portrait" id="imagemAtual">
+                        <div id="texto" class="texto-sobre-imagem">Visual Persona 4/Golden</div>
+                    </div>
+                    <button onclick="mudarFoto()">Mudar Foto</button>
+                    <script>
+                        var fotos = ["../Personagens/Margaret_Render.webp", "../Personagens/P4U2_Margaret.webp", "../Personagens/Margaret.webp"
+                        , "../Personagens/PQ_Maragaret.webp", "../Personagens/PQ2_Margaret.webp"];
+                        var textos = ["Visual Persona 4AU", "Visual Persona 4 Dancing All Night",
+                            "Visual Persona 3 Q", "Visual Persona 3 Q2", "Visual Persona 4/Golden" ];
+                        var fotoAtual = 0;
+                
+                        function mudarFoto() {
+                            var novaFoto = (fotoAtual + 1) % fotos.length;
+                            var img = new Image();
+                            img.onload = function() {
+                            document.getElementById("imagemAtual").src = img.src;
+                            document.getElementById("texto").textContent = textos[fotoAtual];
+                            fotoAtual = novaFoto;
+                        };
+                            img.src = fotos[novaFoto];
+                        }
+                    </script>
+                </section>
+            </div>
+          <h2>
+            Margaret
+          </h2> <br>
+          <p>
+           "A verdade é algo que só aparece para quem observou, considerou e fez uma escolha. No 
+           final do caminho que você escolheu está a verdade... Acredite nela e continue sem 
+           vacilar."
+          </p> <br>
+          <h2>
+            Aparições:
+          </h2> <br>
+          <li><i><td><a href="../Jogos/persona_3.html" title="Persona 3 Portable" style="color: #ffe600">Persona 3 Portable</a>: Guia Vision Quest; Chefe Opcional</td></i></li>
+          <li><i><td><a href="../Jogos/persona_4.html" title="Persona 4" style="color: #ffe600">Persona 4</a>/</td>
+            <td><a href="../Jogos/persona_4_golden.html" title="Persona 4 Golden" style="color: #ffe600">Golden</a>: Assistente de Igor; Chefe Opcional; Link Social da Imperatriz</td></i></li> 
+            <li><i><td><a href="../Jogos/persona_4_arena.html" title="Persona 4 Arena" style="color: #ffe600">Persona 4 Arena</a>/</td>
+            <td><a href="../Jogos/persona_4_arena_ultimax.html" title="Persona 4 Arena Ultimax" style="color: #ffe600">Ultimax</a>:  Assistente de Igor / Personagem jogável (DLC)</td>
+            <li><i><td><a href="../Jogos/persona_4_dan.html" title="Personan 4 Dancing All Night" style="color: #ffe600">Personan 4 Dancing All Night</a> : personagem jogável </td></i></li>
+            <li><i><td><a href="../Jogos/personaq.html" title="Persona Q: Shadow of the Labyrinth" style="color: #ffe600">Persona Q: Shadow of the Labyrinth</a> : Boss opcional, Ultimate Boss, DLC Navigator</td></i></li>
+            <li><i><td><a href="../Jogos/personaq2.html" title="Persona Q2: New Cinema Labyrinth" style="color: #ffe600">Persona Q2: New Cinema Labyrinth</a></td>: personagem não jogável, DLC Navigator</i></li>
+            <li><i><td><a href="../Jogos/persona_3_dim.html" title="Persona 3 Dancing In Moonlight" style="color: #ffe600">Persona 3 Dancing In Moonlight</a>: Parceiro</td></i></li>
+            <li><i><td><a href="../Jogos/persona_5_dis.html" title="Persona 5 Dancing In Starlight" style="color: #ffe600">Persona 5 Dancing In Starlight</a>: Parceiro</td></i></li>
+          </i><br>
+            <h2>
+            Design:
+        </h2> <br>
+        <p>
+            Uma senhora elegante e residente do Velvet Room, Margaret tem cabelos loiros platinados, 
+            pele clara e olhos dourados; características compartilhadas com seus irmãos. Dizem que 
+            ela é incrivelmente bonita, e Rise até expressa inveja de sua beleza quando a Equipe de 
+            Investigação a encontra. Assim como seus irmãos, ela está vestida inteiramente de azul 
+            escuro com sapatos de salto alto combinando e usa acessórios pretos e dourados. Além 
+            disso, Margaret carrega consigo um livro azul, intitulado "Le Grimoire".
+        </p><br>
+        <h2>
+            Personalidade:
+        </h2> <br>
+        <p>
+Margaret é uma pessoa profissional e quieta e significativamente mais madura do que seus irmãos mais 
+novos, Elizabeth , Theodore e Lavenza , embora compartilhe o senso de humor de Elizabeth. No 
+entanto, ela mostra um lado raivoso em Persona Q quando Theodore acidentalmente molha o cabelo e em 
+Persona Q2: New Cinema Labyrinth quando Caroline e Justine tiveram um acidente de fusão . Ela está 
+muito preocupada com o relacionamento que Elizabeth estabeleceu com o protagonista de Persona 3 , 
+pois decidiu sair do Velvet Room para encontrar uma maneira de resgatá-lo de seu destino. Isto 
+também deixa claro que Margaret é altamente leal ao seu mestre Igor . Ela também pode ser bastante 
+assustadora quando está com raiva, já que mesmo as geralmente arrogantes e arrogantes Caroline e 
+Justine não ousariam irritá-la.
+        </p> <br>
+        <h2>
+            Perfil:
+        </h2> <br>
+        <h2>
+            Persona 3 Portable
+        </h2> <br>
+        <p>
+Uma nova porta aparecerá no lado esquerdo do lobby do Tártaro quando o protagonista (seja homem ou 
+mulher ) persegue o final bom ao não matar Ryoji . Margaret estará no centro do que parece ser outra
+versão do Deserto das Portas do Abismo do Tempo . Esta é a Vision Quest, onde Margaret desafia o 
+grupo a enfrentar encarnações mais fortes das Sombras da lua cheia, bem como batalhas que testam 
+habilidades de Força, Magia, Agilidade, Resistência e Sorte. Vencer essas batalhas concederá itens, 
+joias e cartas mágicas como recompensas ( o tipo varia de acordo com o número de vitórias e, em 
+alguns casos, certas condições devem ser atendidas durante a batalha para que recompensas 
+específicas sejam concedidas ). <br><br>
+
+Se todos os desafios forem superados com sucesso, Margaret servirá como o segundo chefe opcional do 
+jogo. Ela dá ao jogador o item-chave Jade Bookmark após sua derrota, que não tem uso no jogo, 
+semelhante ao Raden Bookmark do Persona 4 .
+        </p><br>
+        </h2> <br>
+        <h2>
+            Persona 4
+        </h2> <br>
+        <p>
+Margaret é a nova assistente de Igor e reside no Velvet Room . Ela faz sua primeira aparição ao lado 
+de Igor quando o protagonista caiu em seu subconsciente durante sua viagem para Yasoinaba . 
+Semelhante a Persona 3 , enquanto Igor é responsável pelas fusões de Persona, Margaret cuida do 
+compêndio de Persona, que permite ao protagonista acompanhar suas Personas fundidas e convocá-las 
+novamente.<br><br>
+
+Além de cuidar do compêndio Persona , Margaret também cuida do serviço Fusion Forecast, onde prevê 
+os fenômenos do dia e os efeitos extras que podem afetar uma Persona durante a fusão. Sendo uma 
+mulher quieta e profissional, Margaret não fala muito com o protagonista até que seu status de 
+Conhecimento chegue a “Especialista”. Só então Margaret começaria a se abrir com o protagonista.<br><br>
+
+Margaret também tem o cuidado de mencionar que a protagonista é a primeira convidada do Velvet Room 
+a ser recebida não por Igor, mas sim por Margaret, uma assistente. Margaret mencionaria mais tarde 
+que a protagonista também é coincidentemente a primeira pessoa que ela recebe oficialmente. Sentindo 
+uma sensação de parentesco, Margaret cria o Link Social Arcana da Imperatriz com a protagonista. 
+Através das interações do protagonista com Margaret, é revelado que Margaret possui um senso de 
+humor bobo e caprichoso, apesar de sua imagem inicial de uma mulher composta e digna.<br><br>
+
+Mais tarde, o protagonista pode visitar Margaret antes do dia em que deixar Yasoinaba, caso complete 
+o Link Social da Arcana da Imperatriz. Margaret aparece em frente ao Velvet Room no distrito 
+comercial de Yasoinaba. Após o protagonista conhecê-la, ela se pergunta se conseguiria ver o 
+protagonista mais uma vez e diz ao protagonista para fechar os olhos enquanto ela lhe dá um presente 
+de despedida. Margaret então aproveita para roubar um beijo do protagonista, dizendo-lhe que como 
+esta ação é considerada "pecaminosa" no Velvet Room, ela não quer que o protagonista veja suas ações
+pecaminosas.<br><br>
+
+Caso os jogadores continuem do último ciclo do arco True Ending de Persona 4 , o protagonista tem a 
+oportunidade de desafiar Margaret para uma batalha no segundo ciclo do True Ending . Para tanto, o 
+protagonista deve primeiro cumprir vários pré-requisitos: todos os chefes opcionais devem ser 
+derrotados e o Empress Arcana Social Link deve ser concluído, ambos antes de completar Magatsu Inaba . 
+Além disso, no True Ending do segundo ciclo , o protagonista deve revisitar a Sala Velvet após obter 
+o “Orbe da Visão” antes de falar com o Atendente do Posto de Gasolina Moel . Se o protagonista falar 
+com o atendente antes de visitar a Sala Velvet, Margaret não desafiará o protagonista para uma 
+batalha.<br><br>
+
+No Velvet Room, Margaret revela que ela, na verdade, tem uma irmã que saiu do Velvet Room, deixando-a 
+encarregada do papel de irmã. A irmã mencionada é Elizabeth. Através das conversas do protagonista 
+com Margaret, Margaret menciona que todos que entraram no Velvet Room estão fadados a embarcar em
+uma jornada para descobrir seu verdadeiro eu, incluindo aqueles que residem no Velvet Room.<br><br>
+
+Elizabeth, no entanto, deixa a Sala de Veludo por vontade própria, uma ação que surpreende e 
+perturba Margaret. Margaret informa à protagonista que gostaria de descobrir o motivo das ações 
+tolas de Elizabeth e deseja aceitá-la de volta. Margaret também se pergunta em voz alta se Elizabeth 
+descobriu sozinha a razão de sua vida e, portanto, deixou a Sala de Veludo, e começa a questionar 
+sua própria existência. Para encontrar Elizabeth e trazê-la de volta, no entanto, Margaret acredita 
+que ela deveria primeiro entender o verdadeiro significado de sua vida também e convida o 
+protagonista para uma batalha, dizendo-lhe que ela espera o protagonista em "The Heaven's End ".<br><br>
+        
+Ao chegar ao fim do Céu, Margaret informa à protagonista que soube por seu mestre que Elizabeth 
+também desafiou um de seus convidados anteriores para uma batalha, mas não se sabe se o convidado 
+aceitou o desafio. Desafiando a protagonista para uma batalha, Margaret revela ser uma poderosa 
+usuária de Persona semelhante a Elizabeth, além de ter a habilidade de invocar múltiplas Personas. 
+Todas as suas personas são homens bonitos, como Oberon e Helel . Ao derrotar Margaret, Margaret 
+revela durante a batalha que Elizabeth uma vez disse a ela que deseja deixar a Sala Velvet para 
+ajudar um jovem que arriscou sua alma para salvar a humanidade.<br><br>
+
+Margaret então exclama que originalmente pensou que o que Elizabeth disse era absurdo, mas acabou
+acreditando nela. Margaret menciona que todo aquele que busca sua resposta para a vida tem infinitas 
+possibilidades, mas no final, o próprio buscador só consegue encontrar seus próprios motivos 
+decidindo qual seria seu papel, à semelhança do que Elizabeth fez. Agradecendo ao protagonista, 
+Margaret então diz a ele que caso ele sofresse o mesmo destino, ou pior, ela também faria o possível 
+para ajudar o protagonista, independentemente de quanto tempo demorasse.<br><br>
+
+Recompensas
+Nos eventos das visitas do protagonista ao Velvet Room, Margaret concede ao protagonista várias 
+recompensas se certos pré-requisitos forem atendidos. Por exemplo, caso o protagonista concorra 
+uma determinada porcentagem do Compêndio de Personas, Margaret concederá ao protagonista o 
+Bilhete de Veludo , que reduz em 10% o custo de convocação de Personas no Compêndio.<br><br>
+        
+<h1>Link Social</h1><br>
+
+"Bem-vindo à Sala de Veludo. Eu sou Margaret. Sou aquela que governa o poder, convidada aqui após o 
+súbito desaparecimento de meu antecessor . Você pode ser a primeira pessoa que foi recebida aqui por 
+alguém que não seja meu mestre. O Velvet Room é inseparável do coração de seus convidados... A forma 
+do quarto e seus moradores são selecionados pelo meu mestre, com base no número de convidados e em 
+seu destino... Vamos conversar? Sou chamado a fazer."<br>
+—Margaret antes de iniciar o Social Link<br><br>
+
+Exclusivo de outros Links Sociais, o Arcano da Imperatriz é ativado sempre que o protagonista atende 
+a um pedido de Margaret. As solicitações giram em torno da criação de Personas específicas com 
+habilidades específicas:<br><br>
+
+O atendimento do pedido não é acionado na fusão da Persona em questão, mas sim na próxima entrada do 
+protagonista na Sala Velvet; tudo o que é necessário é sair e entrar novamente.<br><br>
+
+Ao atender todos os pedidos de Margaret, Margaret diz à protagonista que, na verdade, ela não está 
+interessada nos resultados, mas nos esforços da protagonista para atender seus pedidos. Margaret 
+então explica que o protagonista está essencialmente treinando sua alma, que a ação de alguém 
+realmente mexe com o coração mais do que qualquer palavra poderia expressar, e diz a ele que um dia, 
+o protagonista pode ser quem lhe dará a resposta para a vida. Margaret então dá ao protagonista seu 
+broche em espiral como sinal de amizade.<br><br>
+
+Completar o Link Social da Imperatriz também concede a Persona definitiva da Arcana da Imperatriz, 
+Ísis .
+        </p><br>
+        <h2>
+            Golden
+        </h2> <br>
+        <p>
+Se o protagonista tiver maximizado o Aeon Social Link para Marie antes da derrota de Ameno-sagiri , 
+e o protagonista visitar o Velvet Room em 2 de janeiro, ele descobrirá que Marie está desaparecida. 
+Sabendo de sua conexão com ela, Margaret diz ao protagonista que começará a localizá-la para ele. Ao 
+longo das próximas semanas ela ligará para o protagonista, dando-lhe atualizações sobre sua busca. 
+Durante a viagem de esqui, o protagonista e outro(s) amigo(s) de sua escolha se perdem em uma 
+nevasca e se refugiam em um galpão atrás do chalé. Dentro há uma TV, que Margaret usa para atrair 
+a equipe de investigação , apresentando-se aos outros e revelando a localização de Marie, a Floresta 
+Oca .<br><br>
+
+Se o protagonista maximizar o Social Link de Margaret e perguntar se ela tem outro pedido, ela lhe 
+dará os trajes Deep Blue Clothes, que são os trajes dos três residentes do Velvet Room. O 
+protagonista, Naoto , Yosuke e Kanji receberão a roupa de Theo, Yukiko receberá a de Margaret e a 
+de Chie Elizabeth.<br><br>
+
+Margaret também lida com Skill Cards durante a ausência de Marie.<br><br>
+
+Margaret pode ser enfrentada no New Game Plus independentemente do final obtido na jogada anterior. 
+Além disso, o prazo para cumprir as condições exigidas para combatê-la foi prorrogado até 5 de 
+fevereiro.
+        </p><br>
+        <h2>
+            Persona 4 Arena
+        </h2> <br>
+        <p>
+Além de seu papel na tela de seleção de personagens, Margaret é uma personagem-chave nas histórias 
+de Elizabeth e Yu. Assim como Elizabeth continua a zelar por Aigis , sua ex-hóspede, para evitar que 
+ela cometa erros perigosos ou sempre que ela começa a deixar suas dúvidas e emoções tomarem conta 
+dela, Margaret também fará o mesmo por Yu sempre que ele estiver prestes a fazer isso. o mesmo, e o 
+levará de volta ao Velvet Room para fazer isso.<br><br>
+
+Ela parece ter conhecimento dos acontecimentos de Persona 3 , porque quando Elizabeth contou a 
+Margaret seu "conto de fadas" pela primeira vez, ela imediatamente percebeu que o jovem da história 
+é na verdade o protagonista de Persona 3 .<br><br>
+
+Está implícito que, no futuro, Margaret levará Aigis de volta ao Velvet Room e assumirá o dever 
+abandonado de Elizabeth de ajudá-la com os serviços do Velvet Room, mantendo sua responsabilidade 
+original de ajudar Yu, já que as futuras provações dos dois convidados acabarão sendo entrelaçados.
+        </p><br>
+        <h2>
+            Persona 4 Arena Ultimax
+        </h2> <br>
+        <p>
+Margaret aparece como personagem DLC na sequência de Persona 4 Arena. Ela usa múltiplas Personas; 
+especificamente, Cu Chulainn, Ardha e Yoshitsune com Helel aparecendo por sua técnica Instant Kill. 
+Seu leitmotiv é um remix radical de Aria of the Soul .<br><br>
+
+No modo história P3 , ela convence Theodore a fazer uma viagem fora do Velvet Room, enviando-lhe uma 
+missão para obter cem latas de cola. Durante o True Ending, ela e Elizabeth testemunham a batalha 
+entre Yu e Sho Minazuki , observando como a personalidade de Minazuki foi passada para Sho. Ela 
+tenta convencer Elizabeth a voltar, pois Theo está preocupado com ela e observa que um dia ela 
+provavelmente se tornará uma visitante do Velvet Room. Ela conversa com Yu depois que Sho sai e 
+pensa que está ansiosa pela próxima batalha. Ela transporta todos com segurança para fora da torre 
+a pedido de Yu. Ela percebe Theodore e que ele trouxe a cola que ela pediu.<br><br>
+
+Ao saber o que viu do lado de fora e sobre os títulos, Margaret admitiu que se saiu bem e disse-lhe 
+para voltar ao Velvet Room.
+        </p><br>
+        <h2>
+            Dancing All Night
+        </h2> <br>
+        <p>
+Em Persona 4: Dancing All Night , Margaret assume o papel de guia de história. Ao completar certas 
+condições do jogo, ela estará disponível como personagem jogável, mas apenas no Free Dance, e só 
+poderá ser parceira do FEVER com Yu, Teddie, Yukiko ou Marie.
+        </p><br>
+        <h2>
+            Persona Q: Shadow of Labyrinth
+        </h2> <br>
+        <p>
+No início do jogo do lado P4, fica confirmado que a “Voz Familiar” do Festival de Cultura P4 é 
+Margaret.<br><br>
+
+Como a única habitante do Velvet Room no início do lado Persona 4 , Margaret atua como vendedora de 
+armas e itens, atendente do Velvet Room e enfermeira. Uma vez que o elenco de Persona 3 é 
+introduzido nesta rota, Elizabeth e Theodore cuidam dessas funções, deixando Margaret estritamente 
+responsável pela fusão de Persona. Quando elas se encontram, Margaret parece querer perguntar mais a 
+Elizabeth sobre o que aconteceu com seu convidado, mas decide deixar como está.<br><br>
+
+Assim que ambos os protagonistas atingirem o nível 55 ou superior e o jogador entrar na Enfermaria,
+Margaret poderá ser vista discutindo o poder do Wild Card com Elizabeth. Ela faz um pedido que pede 
+apenas que os dois heróis lutem contra ela. Derrotá-la permite que ambos obtenham suas Personas 
+definitivas , e o resto das personas do grupo evoluirão quando atingirem o nível 55 ou na próxima 
+vez que ganharem um nível, se já estiverem no nível 55 ou superior.<br><br>
+
+Margaret, junto com Nanako , Marie e seus irmãos , também está disponível como DLC Navigator por US$ 
+3. Os DLC Navigators não possuem habilidades adicionais, mas podem substituir a voz de Fuuka ou Rise 
+para fornecer suporte vocal, selecionando-os na seção "Suporte" do menu "Party".
+        </p><br>
+            <h2>
+                Estatísticas de Boss
+            </h2>
+            <table class="arcanos-table" id="arcanosTable">
+                <tr>
+                    <th>Arcano</th>
+                    <th>Nível</th>
+                    <th>HP</th>
+                    <th>SP</th>
+                    <th>Força</th>
+                    <th>Magia</th>
+                    <th>Resistência</th>
+                    <th>Agilidade</th>
+                    <th>Sorte</th>
+                </tr>
+                <tr>
+                    <td>-</td>
+                    <td>-</td>
+                    <td>-</td>
+                    <td>-</td>
+                    <td>-</td>
+                    <td>-</td>
+                    <td>-</td>
+                    <td>-</td>
+                    <td>-</td>
+                </tr>
+            </table>
+            
+            <table class="customtable">
+                <tr>
+                    <th>Fisico</th>
+                    <th>Fogo</th>
+                    <th>Gelo</th>
+                    <th>Eletricidade</th>
+                    <th>Vento</th>
+                    <th>Luz</th>
+                    <th>Escuro</th>
+                    <th>Almi</th>
+                </tr>
+                <tr>
+                    <td>96</td>
+                    <td>15000</td>
+                    <td>90000</td>
+                    <td>99</td>
+                    <td>99</td>
+                    <td>99</td>
+                    <td>99</td>
+                    <td>99</td>
+                </tr>
+            </table>
+            <table class="customtable">
+                <tr>
+                    <th>Habilidade</th>
+                    <th>Efeito</th>
+                </tr>
+                <tr>
+                    <td>Ragnarok</td>
+                    <td>Causa dano de Fogo severo a 1 inimigo.</td>
+                </tr>
+                <tr>
+                    <td>Meltdown *</td>
+                    <td>Causa graves danos de Fogo a todos os inimigos.</td>
+                </tr>
+                <tr>
+                    <td>Niflheim</td>
+                    <td>Causa severo dano de Gelo a 1 inimigo.</td>
+                </tr>
+                <tr>
+                    <td>Cocytus Pain</td>
+                    <td>Causa graves danos de gelo a todos os inimigos.</td>
+                </tr>
+                <tr>
+                    <td>Thunder Reign</td>
+                    <td>Causa dano Elec severo a 1 inimigo.</td>
+                </tr>
+                <tr>
+                    <td>Narukami *</td>
+                    <td>Causa graves danos elétricos a todos os inimigos.</td>
+                </tr>
+                <tr>
+                    <td>Panta Rhei</td>
+                    <td>Causa dano severo de Vento a 1 inimigo.</td>
+                </tr>
+                <tr>
+                    <td>Divine Wind *</td>
+                    <td>Causa graves danos de Vento a todos os inimigos.</td>
+                </tr>
+                <tr>
+                    <td>Power Charge</td>
+                    <td>O próximo ataque físico terá 150% maior poder.</td>
+                </tr>
+                <tr>
+                    <td>Mind Charge</td>
+                    <td>O próximo ataque mágico terá 150% maior poder.</td>
+                </tr>
+                <tr>
+                    <td>Diarahan</td>
+                    <td>Restaura totalmente o HP de 1 aliado.</td>
+                </tr>
+                <tr>
+                    <td>Megidolaon</td>
+                    <td>Causa severo dano Todo-Poderoso a todos os inimigos.</td>
+                </tr>
+                <tr>
+                    <td>Morning Star</td>
+                    <td>Causa enorme dano Todo-Poderoso a todos os inimigos.</td>
+                </tr>
+                <tr>
+                    <td>Hassou Tobi</td>
+                    <td>Causa dano físico leve a todos os inimigos 8x.</td>
+                </tr>
+            </table>
+            <br>
+            <h2>Citações de batalha</h2><br>
+            <p>Persona 4</p> <br>
+        <div class="persona-container" onclick="toggleTable('Persona 4')">
+            <div class="toggle-button">Mostrar/Esconder Tabela Persona 4</div>
+        </div>
+    
+        <div id="Persona 4-table" class="persona-table">
+    <li>"Estou carregada com o calor e a tensão da batalha... agora vamos começar! Não me decepcione!" (Início da batalha)</li>
+    <li>“Aguente isso!” (Lançando um feitiço)</li>
+    <li>"Apenas observe!" (Lançando um feitiço)</li>
+    <li>"Não me decepcione!" (Lançando um feitiço)</li>
+    <li>“Persona!” (não utilizado)</li>
+    <li>"Ainda não terminei! Fique de pé!" (não utilizado)</li>
+    <li>"Você é durão, mas isso torna isso mais interessante!" (não utilizado)</li>
+    <li>"Eu não vou me conter." (não utilizado)</li>
+    <li>"Não se preocupe, não estou nem perto de terminar!" (não utilizado)</li>
+    <li>"O que você diz disso?" (não utilizado)</li>
+    <li>"Espero que você esteja preparado!" (não utilizado)</li>
+    <li>"Vou usar todas as minhas forças. Aguente isso!" (não utilizado)</li>
+    <li>"Concentre-se! Eu sei que você é mais que isso!" (não utilizado)</li>
+    <li>"Isso não é suficiente. Mostre-me tudo o que você tem!" (não utilizado)</li>
+    <li>"Este é só para você!" (não utilizado)</li>
+    <li>"Ugh... huh... ugh... finalmente, um mero humano me derrotou..." (não utilizado)</li>
+    <li>"Estou ainda mais intrigado." (Recuperando-se de baixo)</li>
+    <li>"Ugh... baixei a guarda." (Recuperando-se de baixo)</li>
+    <li>"Ugh... eu sou melhor que isso." (Recuperando-se de baixo)</li>
+    <li>" Eu vou te dizer agora, descarte qualquer preocupação que você possa ter por mim! Você me honrará lutando como se pretendesse matar. Se conter seria nada menos que um insulto . (75% HP)</li>
+    <li>“Ufa... Quanto tempo faz que não me sinto tão revigorado? Minhas desculpas, mas estou ainda mais ansioso para derrotá-lo agora!” (50% PV)</li>
+    <li>*suspiro* *suspiro* "...Que maravilha... Mesmo Elizabeth nunca me encurralou tanto assim... Agora, mostre-me... Mostre-me o que está além das batalhas!" (25% de Saúde, após a cura)</li>
+    <li>"Não!" (Ao ser derrotado no P4 )</li><br>
+        </div>
+    <script>
+    function toggleTable(id) {
+        var table = document.getElementById(id + '-table');
+        table.style.display = (table.style.display == 'none' || table.style.display == '') ? 'block' : 'none';
+    }
+    </script>
+            <h2>
+                Curiosidades:
+            </h2> <br>
+            <li><i>Em Persona 4 Golden , algumas falas de Margaret foram relidas pela atriz Karen Strassman, que também dubla Aigis , Izanami , Nanako Dojima e Natsuki Moriyama , principalmente no diálogo antes e depois da luta com ela.</i></li><br><br>
+            <li><i>Apesar da luta contra o chefe de Elizabeth no jogo em Persona 3 ser muito mais difícil do que a de Margaret em Persona 4 , Margaret é considerada mais forte do que Elizabeth na tradição de Persona .</i></li><br><br>
+            <li><i>Margaret é a primeira personagem jogável em Arena a usar mais de uma Persona (fora de Instant Kills).</i></li><br><br>
+            <li><i>Ela também é a única personagem na Arena a usar Personas projetadas por Kaneko .</i></li><br><br>
+            <li><i>O título de Margaret no jogo pode se referir ao fato de que a maioria, senão todas, das Personas que ela usa em sua batalha contra o chefe na Persona 4 são lindos homens humanóides. Também pode se referir à sua atitude de flerte com o protagonista no evento final de seu Social Link.</i></li><br><br>
+            <li><i>Sua arte Ultimax mostra Margaret prestes a destruir um cartão Persona com seu livro. Esse método específico é o seu estilo de invocar uma Persona.</i></li><br><br>
+            <li><i>Os escritores fazem referência a JoJo's Bizarre Adventure quando ela faz o elenco de P4 posar em PQ . Margaret imita a pose de Joseph Joestar na arte de seu personagem em Persona 4: Dancing All Night .</i></li><br><br>
+            <li><i>Em Persona Q: Shadow of the Labyrinth , sua fusão fracassada de Persona é mais cômica do que a de sua irmã (Elizabeth). Quando as cartas Persona são enviadas voando acima dela e deveriam pousar em seu livro, uma das cartas perfura sua cabeça. A câmera então se aproxima dela enquanto ela desenvolve um tique de raiva em sua cabeça. Ela tira o cartão da cabeça e o esmaga furiosamente na mão. Ela então coloca isso no livro e desenvolve uma Persona diferente da que o jogador queria.</i></li><br><br>
+            <li><i>Em Persona 4: Dancing All Night , Margaret é uma das personagens jogáveis ​​que não usa roupas de dança (incluindo Marie e Tohru Adachi ).</i></li><br><br>
+            <li><i>Seguindo a tendência de os atendentes do Velvet Room receberem nomes de personagens do romance Frankenstein , "Margaret" poderia ser uma referência a Margaret Walton Saville, irmã de Robert Walton, que recebe cartas que narram a história.</i></li><br>
+        </section>
+    </main>
+</body>
+</html>
