@@ -1,0 +1,26 @@
+Objetivo:
+
+O objetivo principal do programa é fornecer uma interface de linha de comando simples para o usuário gerenciar suas tarefas diárias. 
+As funcionalidades incluem adicionar tarefas, visualizar a lista de tarefas, marcar tarefas como concluídas e excluir tarefas não desejadas.
+
+Funcionalidades Principais
+1. Adição de Tarefas
+Os usuários podem adicionar novas tarefas, fornecendo uma descrição da tarefa quando solicitado pelo programa. 
+As tarefas são armazenadas em um arquivo JSON para persistência de dados entre diferentes execuções do programa.
+
+2. Visualização de Tarefas
+Os usuários podem visualizar a lista de tarefas, incluindo informações sobre a descrição da tarefa e seu status (pendente ou concluída). 
+Caso não haja tarefas registradas, o programa informa que nenhuma tarefa foi encontrada.
+
+3. Marcação de Tarefas como Concluídas
+O programa permite que os usuários marquem tarefas específicas como concluídas, facilitando o acompanhamento do progresso nas atividades diárias.
+
+4. Exclusão de Tarefas
+Usuários têm a capacidade de excluir tarefas indesejadas da lista. O programa solicita o número da tarefa a ser excluída e realiza a exclusão, atualizando a lista de tarefas.
+
+Implementação Técnica
+O programa foi implementado em Python e faz uso de manipulação de arquivos JSON para armazenar e recuperar as tarefas. O código foi estruturado em funções modulares para facilitar a manutenção e expansão futura.
+
+Conclusão
+O programa de gerenciamento de tarefas desenvolvido em Python oferece uma solução prática e eficiente para usuários que desejam organizar suas atividades diárias. 
+Com funcionalidades básicas implementadas, o programa fornece uma base sólida para futuras expansões e melhorias.
