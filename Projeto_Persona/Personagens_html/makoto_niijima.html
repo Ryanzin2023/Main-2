@@ -1,0 +1,522 @@
+<!DOCTYPE html>
+<html lang="PT-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="../Personagens_html/persona_5.css">
+    <title>Makoto Niijima</title>
+</head>
+<body>
+    <main>
+      <section id="tela">
+        <div class="container_flex">
+            <img src="../Fotos_adicionais/Persona_5_logo.png" alt="Logo" style="margin-left: 460px;" width="360px">
+            </div>
+        </section>
+        <section id="sobre-tabela">
+            <div id="sobre-tabela">
+                <section id="sobre-tabela2">    
+                    <div id="portrait2">
+                        <img src="../Personagens/Makoto_Nijima.webp" alt="Portrait" id="imagemAtual">
+                        <div id="texto" class="texto-sobre-imagem">Visual Persona 5</div>
+                    </div>
+                    <button onclick="mudarFoto()">Mudar Foto</button>
+                    <script>
+                        var fotos = ["../Personagens/Makoto_Nijima.webp", "../Personagens/P5_Makoto_Nijima_Phantom_Thief.webp", "../Personagens/P5R_Makoto.webp"
+                        , "../Personagens/P5S_Makoto (1).webp", "../Personagens/P5T_Makoto.webp", "../Personagens/P5D_Makoto_Nijima.webp", "../Personagens/P5X_Makoto.webp"
+                        , "../Personagens/PQ2_Makoto_Niijima.webp", "../Personagens/PQ2_Makoto_Niijima_29.webp"];
+                        var textos = ["Visual Queen Persona 5 ","Visual Persona 5 Royal", "Visual Queen Persona 5 Strikers", "Visual Queen Persona 5 Tactica"
+                            , "Visual Persona 5 Dancing In Starlight", "Visual Queen Persona 5 X", "Visual Persona Q2"
+                            , "Visual Queen Persona Q2","Visual Persona 5"];
+                        var fotoAtual = 0;
+                
+                        function mudarFoto() {
+                            var novaFoto = (fotoAtual + 1) % fotos.length;
+                            var img = new Image();
+                            img.onload = function() {
+                            document.getElementById("imagemAtual").src = img.src;
+                            document.getElementById("texto").textContent = textos[fotoAtual];
+                            fotoAtual = novaFoto;
+                        };
+                            img.src = fotos[novaFoto];
+                        }
+                    </script>
+                </section>
+            </div>
+          <h2>
+            Makoto Niijima
+          </h2> <br>
+          <p>
+            “Antes de vocês aparecerem, minha vida era definida por regras, seguindo um caminho 
+            escolhido por outra pessoa... Mas só um verdadeiro perdedor viveria uma vida tão rígida! 
+            significa enfrentar o mundo inteiro!"
+            —Makoto Niijima, Persona 5
+          </p> <br>
+          <h2>
+            Aparições:
+          </h2> <br>
+          <li><i><td><a href="../Jogos/persona_5.html" title="Persona 5" style="Color:#f41000">Persona 5</a> /</td>
+            <td><a href="../Jogos/persona_5_r.html" title="Persona 5 Royal" style="Color:#f41000">Royal</a>: Personagem Jogável; Confidente da Sacerdotisa</td></i></li>
+            <li><i><td><a href="../Jogos/persona_3_dim.html" title="Persona 3 Dancing In Moonlight" style="Color:#f41000">Persona 3 Dancing In Moonlight</a>: Personagem Jogável; Sacerdotisa Social</td></i></li>
+            <li><i><td><a href="../Jogos/personaq2.html" title="Persona Q2 New Cinema Labyrinth" style="Color:#f41000">Persona Q2 New Cinema Labyrinth</a>: parceiro DLC</td></i></li>
+            <li><i><td><a href="../Jogos/persona_5_s.html" title="Persona 5 Strikers" style="Color:#f41000">Persona 5 Strikers</a>: personagem jogável</td></i></li>
+            <li><i><td><a href="../Jogos/persona_5_t.html" title="Persona 5 Tactica" style="Color:#f41000">Persona 5 Tactica</a>: personagem jogável</td></i></li>
+          </i><br>
+            <h2>
+            Design:
+        </h2> <br>
+        <p>
+            Makoto tem cabelo castanho com corte bob com franja romba e uma faixa de trança francesa 
+            que combina com a cor do cabelo. Seus olhos são anormais, pois foram retratados como 
+            vermelhos, embora a cor dos olhos em seus retratos possa ser interpretada como marrom-
+            avermelhada. Ela tem estatura feminina média, sendo mais alta que Futaba Sakura e Haru 
+            Okumura , mas um pouco mais baixa que Ann Takamaki .<br><br>
+
+            Seu uniforme escolar de inverno parece normal, mas sem o blazer padrão. Em vez disso, 
+            ela usa um colete preto sobre uma camisa branca de manga comprida com gola alta (que é 
+            diferente das golas normais para estudantes do sexo feminino, pois há um zíper 
+            perceptível). Ela usa a saia xadrez plissada preta e vermelha regulamentar, meia-calça 
+            preta e botins preto-marrom.<br><br>
+            
+            Seu uniforme escolar de verão foi modificado. Ela usa uma camisa branca com o emblema da 
+            Alta Sacerdotisa ("BJ") bordado na gola, em vez de uma camisa pólo normal. Sob a saia 
+            regulamentar, ela usa leggings pretas capri e mocassins pretos com borla, sem meias.<br><br>
+            
+            Suas roupas casuais de inverno consistem em uma camisa preta de gola alta sob um casaco 
+            azul-petróleo, com calças pretas justas e botas de dois tons marrom-amareladas até o 
+            joelho com punhos escuros. Suas roupas casuais de verão consistem em uma blusa branca 
+            com cinto preto, calças capri pretas semelhantes às leggings de seu uniforme escolar de 
+            verão e sapatos pretos de salto baixo Mary Jane.<br><br>
+            
+            Durante a viagem ao Havaí , Makoto usa seu maiô, que consiste em um biquíni branco com 
+            saia na parte inferior.<br><br>
+            
+            Em Royal , o traje escolar de Makoto é ligeiramente modificado para o Terceiro Semestre, 
+            vestindo um grande sobretudo preto e luvas marrons. Nos dias de folga, ela usa um suéter 
+            branco com gola alta de gola alta, saia preta, meia-calça preta e sapatos sociais. 
+            Além disso, ela usa um casaco azul escuro e luvas de couro marrom.<br><br>
+            
+            Sua roupa do Metaverso consiste em um terno colante de dois tons (azul escuro e preto) 
+            que é usado com um longo lenço preto, um peitoral de couro estilo espartilho cinza 
+            escuro, ombreiras e joelheiras com pontas misturadas com botas que ostentam saltos e 
+            dedos de metal. , luvas brancas e máscara de ferro.<br><br>
+            
+            Em Persona 5: Dancing in Starlight , ela mantém seu uniforme escolar da academia Shujin, 
+            exceto que ela usa uma camisa cinza escura com pontos e um padrão de respingos pretos, 
+            meias altas presas à saia por ligas na frente e botas marrons de cano alto. Ela também 
+            usa um lenço vermelho em volta do braço esquerdo que combina com as luvas e uma corrente 
+            presa ao cinto preto.<br><br>
+            
+            Em Persona 5 Strikers, ela usa uma jaqueta de couro preta de mangas curtas sobre uma 
+            camiseta branca, calças de couro pretas na altura da canela e sapatos pretos. Ela também 
+            parece ter herdado o colar de sua irmã mais velha, Sae Niijima , que é uma dog tag. Nos 
+            festivais, ela usa um yukata azul com estampa de flores brancas e faixa laranja. Para o 
+            dia de folga em Okinawa, Makoto usa um biquíni verde-oliva sem graça com estampas de 
+            folhas verdes e brancas, com sandálias de amarrar que chegam aos tornozelos.
+        </p><br>
+        <h2>
+            Personalidade:
+        </h2> <br>
+        <p>
+
+"Aguente... Faça o que eu disse... Tenho ouvido você falar sem parar... Cale a boca, seu idiota 
+ganancioso!"<br>
+—Makoto Niijima para Junya Kaneshiro , Persona 5<br><br>
+
+Apesar de sua posição como presidente do conselho estudantil, Makoto é uma estudante extremamente 
+impopular na Academia Shujin. Isso ocorre porque ela não fez nada para impedir o abuso de Suguru 
+Kamoshida , resultando em todos os alunos a rotulando como uma maníaca arrogante e egoísta que 
+sabia sobre o abuso, mas optou por ignorá-lo porque ela só se importava em receber uma boa carta. 
+de recomendação, e os Ladrões Fantasmas inicialmente a assumem como tal. Na verdade, isso acontece 
+porque Makoto não tem autoridade real em Shujin, com sua posição apenas tornando-a uma ferramenta 
+glorificada para o diretor usar da maneira que achar melhor, e ela realmente queria fazer algo 
+contra Kamoshida, mas está com muito medo da intromissão do diretor. com seu histórico universitário 
+para proteger o professor de educação física.<br><br>
+
+Ela também não hesita em guardar segredos de seus amigos para manter sua imagem. Quando Akechi 
+revela ao grupo que Sae tem um palácio , Makoto admite que sabia disso e queria ir para lá para 
+que Sae se arrependesse, mas ela manteve isso em segredo porque achou que era "um motivo muito 
+egoísta". Muito antes disso, isso a levou a esconder a verdadeira razão pela qual ela não se 
+levantou contra Kamoshida.<br><br>
+
+Sentindo-se ofuscada por sua irmã mais velha altamente bem-sucedida e sendo usada como uma 
+ferramenta, Makoto quase não tem senso de autoestima e, por isso, adquiriu o hábito de manter o 
+nariz baixo e fazer o que se espera dela. Sua natureza submissa é notada por Goro Akechi , que 
+condescendentemente se refere a ela como "o tipo de boa menina". Ela também tem o péssimo hábito 
+de se desculpar imensamente e pode chegar ao ponto de criar uma parede de texto desnecessária via 
+mensagem instantânea para fazer isso. Após se envolver com os Ladrões Fantasmas, porém, Makoto deixa 
+de negar que não era nada além de uma ferramenta para autoridades superiores, e jura a partir de 
+então lutar por aquilo em que acredita, o que desencadeia o despertar de sua Persona. Após o grupo 
+derrotar Junya Kaneshiro , Makoto decide ficar com os Phantom Thieves, dizendo que ela deixou de ser 
+a "aluna de honra exemplar" e que vai tentar ser mais honesta consigo mesma.<br><br>
+
+Apesar de parecer afetada e adequada na superfície, Makoto é na verdade mais uma moleca: ela é 
+treinada em aikido, gosta de filmes de ação violentos, nunca usa saias além do uniforme escolar 
+(que ela usa leggings por baixo) e parece se importar pouco com moda. do que a faixa que ela usa 
+no cabelo.<br><br>
+
+Makoto tem um temperamento complacente do qual nunca sai: ela é uma pessoa sensata e gentil, quase
+maternal. Esse lado dela seria destacado quando ela ajudasse Futaba Sakura e em alguns pontos 
+Morgana . Dito isto, após o seu despertar, essa disciplina seria autoafirmada e, por sua vez, ela 
+seria rigorosa com os outros e teria uma forma irrestrita e violenta de expressar isso. Além de seu 
+jeito atlético de lutar, na versão em inglês isso também se estende à sua dublagem. Makoto seria 
+duro com Ryuji Sakamoto devido à sua abordagem consistentemente indiferente à vida escolar, que por 
+sua vez a temeria. Morgana teria medo dela algumas vezes, mesmo que não fosse por nada e ela só 
+falasse com ele com autoridade, da mesma forma que se tratava como seu subordinado. Os outros 
+Phantom Thieves e até mesmo Iwai do mangá Mementos Mission a temem. Além disso, essa mesma luta com 
+os regulamentos tornaria a própria Makoto socialmente desajeitada no início, já que ela ainda não 
+perceberia que a vida é mais do que isso, e combateria ativamente sua ignorância com a ajuda do 
+protagonista .<br><br>
+
+Ao mesmo tempo, a própria Makoto fica bastante envergonhada de seu modo excessivamente masculino e 
+dramático de lutar e se vestir: muitas vezes ela reclamava de sua máscara e gostaria de ter usado 
+qualquer outra coisa. Mesmo quando ela é elogiada e admirada por sua aparência, como por seu novo 
+amigo Haru Okumura , ela apenas reage com vergonha e descarta o assunto. E se ela realmente 
+assumisse seu papel, ela se arrependeria profundamente mais tarde, como retratado em algumas de 
+suas danças em Persona 5: Dancing in Starlight .<br><br>
+
+Apesar de sua personalidade imensamente séria e dos esforços para estar acima das travessuras mais 
+bizarras de seus amigos, Makoto tem sua própria timidez oculta, como ficar assustada ao ouvir 
+histórias de fantasmas e a escuridão. Seu pânico se tornaria grave, implorando pela ajuda da irmã 
+mais velha e, a certa altura, até segurando a perna do protagonista.<br><br>
+
+Makoto é um excelente pensador analítico e estrategista, conhecido por deduzir corretamente como a 
+maioria dos quebra-cabeças em Palácios funciona à primeira vista. Bareando as situações em que 
+Akechi se junta ao partido, que se destaca diretamente na exploração dos assuntos do coração, 
+Makoto realiza a maior parte do trabalho estratégico.<br><br>
+
+O relacionamento de Makoto com sua irmã é altamente amargo, já que Sae a considera um prejuízo, 
+mas Makoto tenta constantemente agradá-la, atendendo às expectativas de outras pessoas. Quando ela 
+percebeu a verdadeira natureza de sua irmã (onde sua forma Leviatã pode ser vista aparecendo 
+brevemente por um segundo antes do grupo lutar contra ela), ela quase teve um colapso antes de 
+Akechi garantir que eles conseguiriam superar isso. No final, Makoto quis ajudar sua irmã, dizendo-
+lhe diretamente mais tarde que queria curar seu coração.
+
+        </p> <br>
+        <h2>
+            Perfil:
+        </h2> <br>
+        <h2>
+            Persona 5
+        </h2> <br>
+        <p>
+
+As irmãs Niijima, Makoto e Sae, viveram ao lado do pai desde que a mãe morreu quando elas eram 
+jovens. Como ele não estava sempre em casa, as irmãs não gostavam dele. Infelizmente, há três anos, 
+ele foi assassinado ao ser atropelado por um caminhão no cumprimento do dever, forçando a irmã mais 
+velha, Sae, a fazer malabarismos entre lidar com os casos no tribunal e criar Makoto sozinha. Para 
+manter a taxa de acusação de 99% dos tribunais do seu país, Sae também, na maioria das vezes, viu-se 
+obrigada a fraudar casos com uma acusação de culpa contra a sua vontade. Como resultado, ela via 
+Makoto e seu pai como um fardo e não a tinha em alta consideração. Makoto também se arrependeu de 
+não gostar do pai e desejou que ele ainda estivesse por perto.<br><br>
+
+Makoto se desculpou profundamente por sua irmã ter que arcar com o fardo de sustentá-la sozinha, o 
+que ela absolutamente odeia estar em uma posição, e como resultado estudou muito para poder entrar 
+em uma universidade de alto nível e aliviar o sofrimento de Sae. fardo quando ela se formar. 
+Infelizmente, ninguém na escola a tratava seriamente, e até mesmo os associados de Sae, como Goro 
+Akechi , zombavam dela por sua atitude submissa. Quando a protagonista se muda para Tóquio, ela se 
+torna uma estudante de honra do terceiro ano e presidente do conselho estudantil da Academia Shujin , 
+embora estivesse insatisfeita com a situação porque os alunos a viam como incompetente e inadequada 
+para o trabalho.<br><br>
+
+Ela pode ser encontrada inicialmente na biblioteca da escola no dia 18/04 estudando em uma mesa após
+o término das aulas, e aparecerá semi-regularmente lá a partir de então. Durante o período em que 
+Suguru Kamoshida assediava sexualmente estudantes, chantageava-os e abusava de seus colegas atletas 
+em Shujin, Makoto queria fazer algo contra ele, apenas para recuar com medo de Kobayakawa lhe dar 
+um currículo ruim como retaliação.            
+
+            <br><br>
+            <h1>Terceiro Assalto: Junya Kaneshiro</h1><br>
+        
+Após a confissão de Madarame, o Diretor Kobayakawa pediu a ela que investigasse a possibilidade de 
+os Ladrões Fantasmas serem alunos de sua escola após a confissão e prisão de seu treinador de vôlei, 
+Suguru Kamoshida. Ela aceita o pedido e rapidamente deduz que o protagonista e os demais são os 
+Ladrões Fantasmas e começa a se aproximar deles. Ann Takamaki, em particular, não gosta de sua 
+presença devido a um boato que afirma que Makoto estava ciente da verdadeira natureza de Kamoshida, 
+mas manteve silêncio sobre isso como todo mundo, a fim de manter uma imagem exemplar perante as 
+faculdades e receber uma recomendação para seu próprio benefício. , um pensamento que Ann diz 
+amargamente a Makoto, o que a perturba. (Infelizmente, isso acabou sendo verdade, como ela confirmou 
+pessoalmente mais tarde, após Kaneshiro extorquir o grupo.)<br><br>
+
+Ela começa a seguir o protagonista por um tempo, seguindo-o sempre que ele está na escola ou até
+mesmo até Shibuya . Em 11 de junho, Makoto finalmente confirma suas suspeitas quando ouve Ryuji 
+Sakamoto declarar em voz alta no pátio da Academia Shujin que eles são os Ladrões Fantasmas. No 
+entanto, ela decide não dar essa prova a Kobayakawa e, em vez disso, exige que os Ladrões Fantasmas 
+provem sua justiça reformando um chefe da máfia desconhecido que tem extorquido muitos estudantes em 
+Shibuya, incluindo aqueles que frequentam a Academia Shujin. Se eles conseguirem completar a tarefa,
+ela não exporá suas identidades a ninguém (nem mesmo à polícia). No fundo, Makoto realmente aprova 
+os ladrões e acredita que seu pai pensaria o mesmo, o que ela disse a Sae quando as irmãs estavam 
+jantando em casa, provocando a raiva de Sae, fazendo com que ela chamasse Makoto de "fardo". Isso 
+desanima Makoto fortemente, mesmo que Sae rapidamente tenha se desculpado por insultá-la por causa 
+de um ataque impulsivo de raiva. Sae então diz a Makoto que ela não jantará com Makoto daquele 
+momento em diante, o que implica que ela ainda guarda rancor dela.<br><br>
+
+Makoto verifica o grupo porque eles têm dificuldade para chegar ao centro do Palácio do chefe da 
+máfia Kaneshiro . Ann, Ryuji e Yusuke apontam o quão inútil ela é por não fazer nada que possa 
+ajudá-los, mas contar com o trabalho duro de outra pessoa, algo que perturba muito Makoto depois 
+de ouvir a mesma coisa antes de sua irmã e Akechi. Para provar seu valor, Makoto atua 
+propositalmente como isca para a máfia para que a gangue possa segui-la. Uma vez lá, Kaneshiro tira 
+fotos do grupo apenas presente em sua boate exclusiva para adultos para material de chantagem. 
+Ele exige 3 milhões de ienes em 3 semanas em troca das fotos, o que arruinará sua reputação se 
+vazar. Além disso, se eles não puderem pagar os 3 milhões de ienes, ele forçará Makoto à 
+prostituição para pagar a dívida, acrescentando que pode até manter Sae como sua escrava pessoal.<br><br>
+
+Makoto pede desculpas por suas ações precipitadas e explica como essa loucura poderia arruinar o 
+esforço de Sae em criá-la. Ela tenta pensar em uma maneira de pagar Kaneshiro, mas Morgana sugere
+torná-la uma aliada, trazendo-a ao Palácio de Kaneshiro , porque ela agora é a "cliente especial" 
+do negócio de extorsão de Kaneshiro. Entrando no Metaverso, uma passagem é aberta para permitir que 
+os ladrões e Makoto acessem o “banco flutuante” de Kaneshiro.<br><br>
+
+Makoto é confrontada por Shadow Kaneshiro, que a provoca revelando seu plano para extorquir sua 
+irmã. A demonstração zombeteira de Kaneshiro de explorar a obediência de outros seria recebida 
+com uma rebelião violenta de Makoto, que não deixaria mais outras pessoas decidirem como se 
+disciplinar, despertando para o poder de sua Persona de Johanna e decidindo se juntar aos Ladrões 
+Fantasmas.<br><br>
+
+Se o grupo não conseguir completar o Palácio de Kaneshiro a tempo, a polícia vem prender o 
+protagonista, alegando ter encontrado uma estudante drogada e brutalizada (fortemente implícita 
+como Makoto) em uma das boates de Kaneshiro murmurando delirantemente seu nome. Este cenário é 
+uma falsa lembrança feita pelo protagonista durante o interrogatório de Sae devido à sua mente 
+estar confusa por drogas que lhe foram administradas à força pela polícia. Sae sai da sala para 
+dar tempo ao protagonista para se recuperar, momento em que Akechi aproveita a oportunidade para 
+assassiná-lo.<br><br>
+
+Depois de mudar o coração de Kaneshiro, ela recebe uma ligação de Kaneshiro que diz que deletou as 
+fotos e vai se entregar, aliviando Makoto e os outros. Ela então relata a Kobayakawa que conclui 
+sua investigação dos Ladrões Fantasmas simplesmente dizendo a ele que os Ladrões Fantasmas são 
+justiça, mentindo que ela não tem nenhuma prova de que os Ladrões estão em sua escola, para grande 
+consternação de Kobayakawa. Ela até recusa sua carta de recomendação para a universidade quando 
+Kobayakawa a convence mais uma vez, afirmando que ela estabelecerá seu sucesso sozinha.<br><br>
+
+Ao mostrar seu apoio aos Ladrões Fantasmas, Makoto e Ann consertam suas relações trocando desculpas 
+por transferirem a culpa para si mesmas. Makoto pergunta se ela pode se dirigir a Ann diretamente 
+pelo nome de batismo e sem títulos honoríficos, com o que Ann concorda alegremente. Makoto também 
+passa a atuar como estrategista dos Ladrões Fantasmas, propondo direção e solução de problemas para 
+a gangue. Ela geralmente analisa os quebra-cabeças dos palácios, exceto os casos em que Akechi está 
+no grupo, já que as habilidades de dedução de Akechi são mais aguçadas que as dela. Ela chega ao 
+ponto de instalar um spyware escrito por Futaba Sakura no laptop de Sae para que a turma saiba o 
+andamento da investigação do Ministério Público.
+            <br><br>
+            <h1>Quinto Assalto: Kunikazu Okumura</h1><br>
+            
+“Ela atingiu um ponto muito sensível... Não sabemos o que queremos fazer, hein...”<br>
+—Makoto Niijima falando sobre Haru Okumura, Persona 5<br><br>
+
+Durante a ascensão do grupo à fama, Makoto atuaria como a voz da razão, já que a maioria do grupo 
+queria revelar suas identidades ao público. Além disso, Morgana, que também discordava de seus 
+pontos de vista, teria perdido a capacidade de pensar racionalmente sob sua crença equivocada de 
+que ele é inútil, e fugiria do grupo.<br><br>
+
+Ao investigar e identificar o novo aliado de Morgana, Haru Okumura , Makoto a questiona sobre suas 
+origens como uma ladra fantasma: embora ambos os lados tivessem o mesmo objetivo em mente e Makoto 
+se relacionasse com o desejo de Haru de mudar o coração de seu parente, ela não conseguiu recrutá-
+la, apenas recebendo críticas sobre a falta de objetivo do grupo e sua incapacidade de ajudar seus 
+próprios companheiros.
+
+            <br><br>
+            <h1>Sexto Assalto: Sae Niijima</h1><br>
+        
+Depois que os Ladrões ficam sob suspeita, Makoto propõe entrar em contato com Akechi para obter 
+informações, apenas para descobrir que Akechi já percebeu todas as suas identidades. Akechi diz que 
+divulgará as fotos dos Ladrões saindo do Palácio para a polícia, a menos que trabalhem com ele para 
+encontrar os verdadeiros culpados por trás da morte de Okumura e Kobayakawa, ambos cometidos por ele 
+sob as ordens do chefe da Conspiração . No entanto, o primeiro passo envolve roubar o coração de Sae 
+antes que a investigação encontre (ou plante) evidências incriminatórias sobre os Ladrões. Makoto 
+admite que já sabia há algum tempo que sua irmã tinha um palácio, mas esperava mudar o coração de 
+Sae por outros meios.<br><br>
+
+Enquanto avança pelo Palácio de Sae , Makoto fica chocada ao perceber a profundidade da amargura e 
+do cinismo de sua irmã, particularmente a crença de sua Sombra de que as provações nada mais são do 
+que jogos a serem vencidos por qualquer meio necessário. Ela quase teve um colapso ao enfrentar a 
+verdadeira natureza da Sombra de sua irmã, mas conseguiu se acalmar quando Akechi a confortou.<br><br>
+
+Durante a infiltração no Palácio de Shido , o grupo chega a um salão de banquetes enquanto tenta 
+procurar cartas-convite para entrar no salão de reuniões. Devido à sua natureza mais formal, ela 
+decide sentar-se ao lado de Ryuji antes que a Sombra de Ooe os confronte. Ryuji involuntariamente 
+agrava a situação respondendo, mas Makoto consegue apaziguar a sombra com elogios e perguntas 
+sobre o acidente de metrô, que Ooe afirma ter ordenado a derrubada de um diplomata e um CEO rival 
+que apoiava o governo atual.
+
+            <br><br>
+            <h1>Confidente:</h1><br>
+
+“Deve ter havido pessoas que obstruíram suas ações como os Ladrões Fantasmas. Vocês conseguiram 
+superá-los porque tinham alguém especializado em analisar inimigos... ...Não é mesmo!?”<br>
+—Sae Niijima falando sobre Makoto Niijima, Persona 5<br><br>
+
+O Confidant de Makoto pode ser desbloqueado em 24 de junho após terminar o Palácio de Kaneshiro. No 
+entanto, só se pode iniciar este Confidente enquanto o protagonista tiver Nível de Conhecimento 3 
+(Erudito) ou superior, e o Confidente não pode prosseguir além do nível 5, a menos que o 
+protagonista tenha maximizado o Charme (Debonair). Maximizar este Confidant faz com que Johanna 
+evolua para Anat e desbloqueie a fusão de Cybele .<br><br>
+
+O Confidente de Makoto gira em torno de lidar com sua ignorância do mundo real e ao mesmo tempo 
+questionar como ela deseja viver sua vida. Sua história começa quando Makoto pede à protagonista 
+que a guie pelo mundo exterior para aprender mais sobre a sociedade. Enquanto explora Shinjuku e é 
+exposta à realidade do mundo exterior, ela vê Eiko Takao, uma estudante da Academia Shujin que 
+trabalhava em um salão. Depois de discutir a situação com ela, Eiko tornou-se amiga dela. Makoto 
+estava determinado, no entanto, a descobrir sobre Eiko e sai em um encontro duplo com a protagonista
+para descobrir que ela está em um relacionamento com Tsukasa, um anfitrião de aparência evasiva que 
+tem se aproveitado de jovens emocionalmente vulneráveis ​​para forçá-las a trabalhar. negócios ilegais 
+em Shinjuku, mas a princípio ele é considerado inofensivo.<br><br>
+
+Makoto se abre aos poucos com a protagonista durante o confidente, repreendendo-se por deixar os 
+estudos ficarem para trás em busca de um relacionamento social e como o impacto da morte do pai 
+afetou a família. Makoto explica que sentiu que as expectativas da sociedade sobre ela a fizeram 
+perder de vista o mundo exterior e os sentimentos das pessoas ao seu redor.<br><br>
+
+Eventualmente, Eiko pede ajuda a Makoto, pois Tsukasa teve que pagar pelos danos depois de deixar 
+cair uma garrafa de saquê caro. Lá, ela percebeu que no fundo Eiko queria se libertar de sua vida
+privilegiada e se esforçou para proteger seu novo amigo, revelando a verdadeira natureza de Tsukasa 
+com a ajuda do protagonista.<br><br>
+
+Após a altercação entre Tsukasa e Eiko, ela segue para o Crossroads Bar onde o protagonista pode 
+decidir se quer ou não ter um relacionamento. Independentemente do resultado, ela faz as pazes com 
+Eiko, que voltou a estudar muito para a faculdade e toma a decisão de se tornar comissária de 
+polícia não apenas para honrar o legado de seu pai, mas também para destruir os sem lei e ajudar a 
+resgatar as vítimas. Encontrando ironia em sua nova determinação, Makoto se compromete totalmente a 
+dar tudo de si em seu novo objetivo e em seu dever como Ladrão Fantasma, fazendo com que Johanna se 
+transforme em Anat .<br><br>
+
+O presente de despedida de Makoto após maximizar seu Confidant é a Calculadora Buchi , permitindo ao 
+protagonista a habilidade de usar Shadow Factorization no Rank 1 de seu Confidant em New Game+. Se a
+protagonista buscar um relacionamento amoroso com Makoto, ela presenteará o protagonista com um 
+Relógio de Pulso no Natal, permitindo que o protagonista ganhe mais pontos ao usar uma Persona 
+Sacerdotisa durante seu Confidente em NG+, e Chocolate de Makoto no Dia dos Namorados, que restaura 
+totalmente o SP para um aliado quando consumido.
+            </p><br>
+        <h2>
+            Persona 5 Royal
+        </h2> <br>
+        <p>
+
+Makoto pode ser visto seguindo o protagonista no caminho para a escola no dia 15 de abril. Pouco 
+tempo depois, ela será vista perto das portas do pátio do prédio de prática, expressando choque com 
+um professor que a orientou a conduzir os alunos de volta às salas de aula e ficar em silêncio sobre 
+a situação online para evitar um escândalo, perguntando-se sobre garantir a segurança dos alunos e 
+direcionar os paramédicos.
+
+Além disso, ela também pode ser encontrada observando o protagonista e Ryuji durante sua primeira 
+viagem a Kichijoji .<br><br>
+
+<h1>Retomando a realidade</h1><br>
+
+Nos eventos do terceiro semestre, quando Tóquio está na realidade de Takuto Maruki , seu pai está de 
+volta como se nunca tivesse morrido, e as relações familiares entre Makoto e Sae foram reparadas, 
+tendo um vínculo fraterno quase forte. Segundo os dois, o pai também recebeu um prêmio por ser um 
+oficial de destaque.<br><br>
+
+Isso é resultado dos desejos de Makoto, pois ela desejava que seu pai estivesse vivo, para que Sae 
+não precisasse cuidar dela e tratá-la como um fardo. Nesta realidade, o pai das irmãs nunca morreu. 
+Depois que Makoto decide negar a realidade de Maruki, nunca mais se ouve falar de seu pai.<br><br>
+
+Se a protagonista maximizar seu Confidente e falar com ela depois que ela voltar, ela se repreenderá 
+por seu egoísmo de querer ter uma vida plena com seu pai e sua irmã, indo contra sua promessa de 
+proteger o protagonista a todo custo, e afirma que ela agora seguirá em frente por conta própria, 
+evoluindo Anat e Johanna para Agnes .<br><br>
+
+Algumas semanas após a libertação do protagonista da prisão após Maruki e a restauração de sua 
+realidade, os Ladrões Fantasmas se reuniram em Leblanc com Sojiro participando de seu encontro. 
+Inspirados por suas experiências na outra realidade, Makoto, junto com Haru, revelaram que eles se 
+mudarão para longe após a formatura para encontrar novos lugares para ficar durante os anos de 
+faculdade. Ela concordou com os Ladrões Fantasmas em permanecerem conectados enquanto avançam com 
+seu futuro.<br><br>
+
+Depois que o grupo ajudou o protagonista a fugir das autoridades que tentaram segui-lo de volta à 
+sua cidade natal (com a ajuda do reformado Maruki que agora trabalha como motorista de táxi), 
+Makoto é visto com Sae enquanto eles navegavam pelas opções de acomodação dela fora de um verdadeiro 
+loja imobiliária. Os dois discordaram sobre suas opções e começaram a discutir um com o outro pela 
+primeira vez antes de rirem, um sinal de quanto Makoto amadureceu depois de se juntar aos Ladrões 
+Fantasmas. <br><br>
+
+        </p><br>
+        <h2>
+            Persona 5 Strikers
+        </h2> <br>
+        <p>
+Makoto agora é uma estudante universitária que está se acostumando com sua nova vida. Em algum 
+momento após a partida da protagonista, ela finalmente testemunhou a direção de Haru em primeira 
+mão e ficou apavorada.<br><br>
+
+Seis meses após a partida do protagonista e de Morgana, os Phantom Thieves planejaram se reunir em 
+Tóquio e acampar juntos durante as férias de verão. Ao discutirem sua viagem de acampamento, eles 
+usam um aplicativo móvel popular chamado EMMA para procurar seu equipamento de acampamento e tudo o 
+mais que for necessário para sua viagem. No entanto, após se reagruparem, eles descobrem a 
+existência de um novo incidente relacionado ao Metaverso envolvendo uma estilista e ídolo conhecida 
+como Alice Hiiragi usando uma realidade alternativa conhecida como Prisão sobreposta a Shibuya para 
+hipnotizar o público para ela. Conhecendo a ameaça, todos decidem investigar, restabelecendo os 
+Ladrões Fantasmas de Copas.<br><br>
+
+Durante a investigação sobre Alice, eles são abordados por um policial chamado Zenkichi Hasegawa , 
+que os salvou de bêbados antes de se convidar para Leblanc para poder falar com os Ladrões 
+Fantasmas. Sua presença é recebida negativamente pelo grupo, com Haru deixando claro que eles 
+odeiam a polícia e desconfiam dele, para sua consternação. Zenkichi revela que os Ladrões Fantasmas 
+são os principais suspeitos dos novos incidentes de mudança de coração, mesmo que esse incidente 
+tenha sido instigado por Alice, e ele oferece a eles um acordo para limpar seus nomes em troca de 
+trabalharem juntos com ele. Eles rejeitam sua oferta e, em vez disso, concentram-se em mudar o 
+coração de Alice. No entanto, o tiro sai pela culatra, pois sua confissão convenceu a polícia de 
+que os Ladrões Fantasmas estão envolvidos, deixando o grupo sem escolha a não ser aceitar a oferta 
+de Zenkichi. Somente por meio dessa notificação, os Ladrões Fantasmas souberam que o incidente 
+atingia todo o Japão e que Alice era apenas a ponta do iceberg dentro dele.<br><br>
+
+Makoto e seus amigos aceitam o acordo de Zenkichi, com ela lembrando ao oficial os princípios 
+básicos dos conspiradores. Depois que Zenkichi sugeriu pegar seu próprio carro, Sojiro conseguiu 
+adquirir um trailer para o grupo. Makoto serviu como motorista principal do grupo, pois não se 
+sentia confortável em deixar Haru dirigir. Durante sua aventura na prisão de Okinawa , sua natureza 
+inicialmente misteriosa assustou Makoto a tal ponto que ela acabou agarrada à perna do protagonista.<br><br>
+
+Durante a viagem de volta a Kyoto, Makoto fica exausto, relutantemente permitindo a Haru o controle 
+do volante, apesar de saber de sua direção perigosa. Haru conseguiu expulsar o grupo em uma única 
+manhã, apesar de os ter nauseado e aterrorizado. Quando o grupo é avisado por Zenkichi sobre uma 
+armadilha na pousada em que estão hospedados, Makoto decide entrar em contato com Sae para ajudar a 
+tirar Zenkichi da prisão. Makoto atualiza sua irmã sobre os acontecimentos recentes, o que acaba 
+salvando o grupo da armadilha de Shadow Akane .
+        </p><br>
+        <h2>
+            Persona Q2: New Cinema Labyrinth
+        </h2> <br>
+        <p>
+Makoto é membro do grupo padrão junto com Haru Okumura. Sua Persona, Johanna, possui Diarama , uma 
+habilidade de cura avançada. Assim como Haru, seu nível inicial é muito mais alto que o dos outros 
+membros do grupo. As meninas são sequestradas por um INIMIGO no início do jogo, que as entrega a 
+Kamoshidaman pelo crime de perturbar a paz de Kamocity . Makoto é capaz de dar pistas ao grupo para 
+enfraquecer Kamoshidaman. Depois que Kamoshidaman é derrotado, as duas garotas são libertadas e se 
+juntam permanentemente ao grupo.<br><br>
+
+De acordo com uma triagem especial , seu pai ensinou a ela e a Sae aikido, mas ela nunca foi 
+fisicamente mais forte do que sua irmã mais velha.
+        </p><br>
+                Curiosidades:
+            </h2> <br>
+            <li><i>Makoto tem várias funções exclusivas de navegação em combate:</i></li><br><br>
+            <li><i>Makoto tem prioridade na avaliação dos inimigos na tela Analisar, envolvendo suas fraquezas e resistências. Se ela estiver inconsciente ou não presente no grupo, o papel é dado ao Navegador principal, geralmente Morgana ou Futaba Sakura .</i></li><br><br>
+            <li><i>Makoto também tem a propriedade especial de fazer recomendações para explorar danos técnicos , que não estão disponíveis para nenhum outro membro do grupo. Por exemplo, se um inimigo estiver Queimado , ela pode recomendar o uso de habilidades de Vento nele. Isto segue as mesmas regras de disponibilidade das análises, com a exceção de que os Navegadores da linha principal não podem assumir a função.</i></li><br><br>
+            <li><i>Makoto não gosta da máscara dela. </i></li><br><br>
+            <li><i>Além disso, ela, enquanto vagava por Mementos, também reclama de seu traje de Ladrão Fantasma.</i></li><br><br>
+            <li><i>Queen recebe o papel de "Conselheiro dos Ladrões Fantasmas" (怪盗団の作戦参謀, Kaitō-dan no sakusen sanbō ) ? por sua sabedoria.</i></li><br><br>
+            <li><i>Makoto é o único membro do grupo a ter duas poses de invocação em batalha. A primeira é quando ela tem Johanna ou Agnes, onde ela “monta” sua Persona, enquanto a segunda é com Anat, que ao contrário de Johanna e Agnes tem uma forma humanóide.</i></li><br><br>
+            <li><i>Durante a primeira batalha roteirizada com Makoto quando ela acorda, se não houver nenhum espaço vazio, ela toma diretamente o lugar de Ryuji ou Morgana (Morgana tendo prioridade) para garantir a maior probabilidade de ensinar ao jogador sobre combinações técnicas via Nuke, já que Morgana não pode afligir doenças e O baixo status de Magic de Ryuji torna improvável que Zio seja usado.</i></li><br><br>
+            <li><i>A gola do uniforme de verão tem as letras B e J bordadas. Esta é uma referência a Boaz e Jachin , dois pilares encontrados na entrada do Templo de Salomão, na antiga Jerusalém. Esses pilares gêmeos também são representados nos Arcanos da Sacerdotisa do Tarô e são referenciados com as letras "B" e "J" vistas nos seios do chefe na Persona 3 .</i></li><br><br>
+            <li><i>Além disso, sua Persona de terceiro nível, Agnes, tem as letras B e J nas laterais.</i></li><br><br>
+            <li><i>Na versão japonesa, Ryuji e Haru apelidam Makoto de "Campeão do Fim do Século" (世紀末覇者, Seikimatsu Hasha )a primeira vez que eles veem sua roupa e Persona do Metaverso, uma referência ao título de Raoh da série Fist of the North Star . Makoto e Raoh são especializados em brigas e usam uma montaria. Isso foi alterado para "Post-Apocalyptic Raider" na localização em inglês.</i></li><br><br>
+            <li><i>Na localização em inglês, Ryuji a chama de “Punho da Estrela Fantasma”.</i></li><br><br>
+            <li><i>Ryuji e Futaba provocaram o ato violento de Makoto contra os inimigos como "Punho da Justiça" (鉄拳制裁, Tekken seisai ) . Antes da partida da viagem de verão em Persona 5 Strikers , Ann disse a Zenkichi que “Temos Makoto para garantir que se [os meninos] fizerem algo, ela liberará seu Punho da Justiça”. (真もいるし、何かあったら鉄拳制裁だし。) Mais tarde, em Kyoto , Makoto tratou diretamente os três garotos que não prestavam atenção ao tempo de serviço segregado por gênero na fonte termal como voyeurs e lançou o Punho da Justiça em o ponto.</i></li><br><br>
+            <li><i>Seu movimento " Showtime " com Ryuji em Royal e seu ataque C6 em Strikers são outras referências a Fist of the North Star , durante o qual Makoto executa movimentos em referência direta ao infame "Hundred Rending Fists" (北斗百裂拳, Hokuto Hyakuretesu Ken ) ? técnica.</i></li><br><br>
+            <li><i>Seus movimentos de dança em Persona 5: Dancing in Starlight são amplamente combinados com socos e chutes, semelhantes a Akihiko Sanada em Persona 3: Dancing in Moonlight e Chie Satonaka em Persona 4: Dancing All Night .</i></li><br><br>
+            <li><i>Seu sonho de se tornar policial também coincide com os dois acima, pois Akihiko decidiu ingressar na polícia no final de P4AU , e Chie já se tornou uma policial mencionada em Persona 5 .</i></li><br><br>
+            <li><i>A roupa do Metaverso de Makoto, especialmente seu lenço, pode ser vista como uma referência a Kamen Rider, especialmente aqueles do Período Showa. A referência é ainda mais acentuada pela aparência da motocicleta de Johanna. “Rider” também é um dos apelidos sugeridos para ela.</i></li><br><br>
+            <li><i>Makoto também compartilha a mesma pronúncia de seu nome com Makoto Fukami de Kamen Rider Ghost .</i></li><br><br>
+            <li><i>Durante o tempo após roubar o tesouro de Madarame, mas antes do prazo, se o protagonista voltasse para casa manualmente em vez de voltar pelo mapa, pode-se ver Makoto seguindo o protagonista por toda a rua depois da escola com uma história em quadrinhos como disfarce. Às vezes o livro está de cabeça para baixo.</i></li><br><br>
+            <li><i>Ela aparentemente gosta de mercadorias do Buchimaru-kun, embora não sejam mais vendidas. Isso é revelado quando Eiko Takao percebe que seu estojo é um Buchimaru-kun (e bastante antigo).</i></li><br><br>
+            <li><i>No texto do grupo depois que ela desperta sua Persona, Ryuji diz que é exatamente como aquela música "Eu sou um fantasma, em um cavalo de aço eu monto...", e Makoto continua dizendo que ela não é "procurada", referenciando o hit do Bon Jovi, Wanted Dead or Alive .</i></li><br><br>
+            <li><i>A conta oficial do Twitter da série Persona postou uma mensagem de “Feliz Aniversário” para Makoto em 23 de abril de 2017 JST. Seu aniversário foi o primeiro a ser anunciado fora do elenco principal.</i></li><br><br>
+            <li><i>O aniversário de Makoto é o mesmo dia do Dia da Leitura ou do Dia Mundial do Livro . Isso foi apontado pela conta do Twitter mencionada anteriormente em um tweet de acompanhamento após anunciar seu aniversário.</i></li><br><br>
+            <li><i>No dia 30/07, o protagonista pode ir com Makoto assistir a um filme temático da yakuza chamado “Like a Dragon”, e Makoto parece gostar do gênero. [7] Esta é uma referência à série de videogames Yakuza da Sega (no Japão chamada (龍が如く, Ryū ga Gotoku ) - que se traduz literalmente como "Like a Dragon"). O primeiro jogo da série também ganhou uma adaptação cinematográfica Like a Dragon , ou Yakuza: Like a Dragon (conhecido no Japão como (龍が如く劇場版, Ryū ga Gotoku Gekijōban )</i></li><br><br>
+            <li><i>O filme também foi mencionado por Makoto em Persona Q2 durante uma cena no quarto labirinto . Segundo ela, esse era seu filme favorito. Hikari já assistiu antes e também gostou.</i></li><br><br>
+            <li><i>Referências adicionais à série Yakuza podem ser encontradas em Persona 5 Strikers . No dia 26/07, o protagonista pode caminhar até Makoto do lado de fora de uma loja de brinquedos e interagir com ela, gerando a frase: “Então, 'Dragon: Like a Yakuza' foi lançado? *suspiro* Mas não posso simplesmente ir sozinho...” Isso faz referência ao título mais recente da franquia Yakuza, Yakuza: Like a Dragon . Além disso, no dia 24/08 em Osaka, Makoto pode ser encontrada na Ponte Ebisu comentando sobre como ela estava no local onde "aquele cara levou um tiro", provavelmente uma alusão ao esfaqueamento do protagonista da Yakuza , Kazuma Kiryu, durante os eventos do segundo jogo. .</i></li><br><br>
+            <li><i>Existem 813 livros no quarto de Makoto, como visto em Persona 5: Dancing in Starlight , bem como seu terceiro despertar em Persona 5 Royal.</i></li><br><br>
+            <li><i>Um vislumbre do pai de Makoto e Sae pode ser visto durante o final ruim de Persona 5 Royal , quando o protagonista aceita a realidade ideal de Takuto Maruki .</i></li><br>
+        </section>
+    </main>
+</body>
+</html>
